@@ -1,0 +1,3420 @@
+local SpectrumHub = Instance.new("ScreenGui")
+local ButtonFrame = Instance.new("Frame")
+local OpenBG = Instance.new("ImageLabel")
+local OpenButton = Instance.new("TextButton")
+local HubFrame = Instance.new("Frame")
+local TopbarFrame = Instance.new("Frame")
+local SpectrumTitle = Instance.new("TextLabel")
+local Exit = Instance.new("TextButton")
+local Exit_Roundify_12px = Instance.new("ImageLabel")
+local Minimize = Instance.new("TextButton")
+local Minimize_Roundify_12px = Instance.new("ImageLabel")
+local Credits = Instance.new("TextLabel")
+local ExecuteFrame = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local _1T = Instance.new("TextButton")
+local _1TT = Instance.new("TextButton")
+local _1TTT = Instance.new("TextButton")
+local _1TTTT = Instance.new("TextButton")
+local _1 = Instance.new("TextButton")
+local _10 = Instance.new("TextButton")
+local _100 = Instance.new("TextButton")
+local _101 = Instance.new("TextButton")
+local _102 = Instance.new("TextButton")
+local _103 = Instance.new("TextButton")
+local _104 = Instance.new("TextButton")
+local _105 = Instance.new("TextButton")
+local _106 = Instance.new("TextButton")
+local _107 = Instance.new("TextButton")
+local _108 = Instance.new("TextButton")
+local _109 = Instance.new("TextButton")
+local _11 = Instance.new("TextButton")
+local _110 = Instance.new("TextButton")
+local _111 = Instance.new("TextButton")
+local _112 = Instance.new("TextButton")
+local _113 = Instance.new("TextButton")
+local _114 = Instance.new("TextButton")
+local _115 = Instance.new("TextButton")
+local _116 = Instance.new("TextButton")
+local _117 = Instance.new("TextButton")
+local _118 = Instance.new("TextButton")
+local _119 = Instance.new("TextButton")
+local _12 = Instance.new("TextButton")
+local _120 = Instance.new("TextButton")
+local _121 = Instance.new("TextButton")
+local _122 = Instance.new("TextButton")
+local _123 = Instance.new("TextButton")
+local _124 = Instance.new("TextButton")
+local _125 = Instance.new("TextButton")
+local _126 = Instance.new("TextButton")
+local _127 = Instance.new("TextButton")
+local _128 = Instance.new("TextButton")
+local _129 = Instance.new("TextButton")
+local _13 = Instance.new("TextButton")
+local _130 = Instance.new("TextButton")
+local _131 = Instance.new("TextButton")
+local _132 = Instance.new("TextButton")
+local _133 = Instance.new("TextButton")
+local _134 = Instance.new("TextButton")
+local _135 = Instance.new("TextButton")
+local _136 = Instance.new("TextButton")
+local _137 = Instance.new("TextButton")
+local _138 = Instance.new("TextButton")
+local _139 = Instance.new("TextButton")
+local _14 = Instance.new("TextButton")
+local _140 = Instance.new("TextButton")
+local _141 = Instance.new("TextButton")
+local _142 = Instance.new("TextButton")
+local _143 = Instance.new("TextButton")
+local _144 = Instance.new("TextButton")
+local _145 = Instance.new("TextButton")
+local _146 = Instance.new("TextButton")
+local _147 = Instance.new("TextButton")
+local _148 = Instance.new("TextButton")
+local _149 = Instance.new("TextButton")
+local _15 = Instance.new("TextButton")
+local _150 = Instance.new("TextButton")
+local _151 = Instance.new("TextButton")
+local _152 = Instance.new("TextButton")
+local _153 = Instance.new("TextButton")
+local _154 = Instance.new("TextButton")
+local _155 = Instance.new("TextButton")
+local _99 = Instance.new("TextButton")
+local _16 = Instance.new("TextButton")
+local _17 = Instance.new("TextButton")
+local _18 = Instance.new("TextButton")
+local _19 = Instance.new("TextButton")
+local _2 = Instance.new("TextButton")
+local _20 = Instance.new("TextButton")
+local _21 = Instance.new("TextButton")
+local _22 = Instance.new("TextButton")
+local _23 = Instance.new("TextButton")
+local _24 = Instance.new("TextButton")
+local _25 = Instance.new("TextButton")
+local _26 = Instance.new("TextButton")
+local _27 = Instance.new("TextButton")
+local _28 = Instance.new("TextButton")
+local _29 = Instance.new("TextButton")
+local _3 = Instance.new("TextButton")
+local _30 = Instance.new("TextButton")
+local _31 = Instance.new("TextButton")
+local _32 = Instance.new("TextButton")
+local _33 = Instance.new("TextButton")
+local _34 = Instance.new("TextButton")
+local _35 = Instance.new("TextButton")
+local _36 = Instance.new("TextButton")
+local _37 = Instance.new("TextButton")
+local _38 = Instance.new("TextButton")
+local _39 = Instance.new("TextButton")
+local _4 = Instance.new("TextButton")
+local _40 = Instance.new("TextButton")
+local _41 = Instance.new("TextButton")
+local _42 = Instance.new("TextButton")
+local _43 = Instance.new("TextButton")
+local _44 = Instance.new("TextButton")
+local _45 = Instance.new("TextButton")
+local _46 = Instance.new("TextButton")
+local _47 = Instance.new("TextButton")
+local _48 = Instance.new("TextButton")
+local _49 = Instance.new("TextButton")
+local _5 = Instance.new("TextButton")
+local _50 = Instance.new("TextButton")
+local _51 = Instance.new("TextButton")
+local _52 = Instance.new("TextButton")
+local _53 = Instance.new("TextButton")
+local _54 = Instance.new("TextButton")
+local _55 = Instance.new("TextButton")
+local _56 = Instance.new("TextButton")
+local _57 = Instance.new("TextButton")
+local _58 = Instance.new("TextButton")
+local _59 = Instance.new("TextButton")
+local _6 = Instance.new("TextButton")
+local _60 = Instance.new("TextButton")
+local _61 = Instance.new("TextButton")
+local _62 = Instance.new("TextButton")
+local _63 = Instance.new("TextButton")
+local _64 = Instance.new("TextButton")
+local _65 = Instance.new("TextButton")
+local _66 = Instance.new("TextButton")
+local _67 = Instance.new("TextButton")
+local _68 = Instance.new("TextButton")
+local _69 = Instance.new("TextButton")
+local _7 = Instance.new("TextButton")
+local _70 = Instance.new("TextButton")
+local _71 = Instance.new("TextButton")
+local _72 = Instance.new("TextButton")
+local _73 = Instance.new("TextButton")
+local _74 = Instance.new("TextButton")
+local _75 = Instance.new("TextButton")
+local _76 = Instance.new("TextButton")
+local _77 = Instance.new("TextButton")
+local _78 = Instance.new("TextButton")
+local _79 = Instance.new("TextButton")
+local _8 = Instance.new("TextButton")
+local _80 = Instance.new("TextButton")
+local _81 = Instance.new("TextButton")
+local _82 = Instance.new("TextButton")
+local _83 = Instance.new("TextButton")
+local _84 = Instance.new("TextButton")
+local _85 = Instance.new("TextButton")
+local _86 = Instance.new("TextButton")
+local _87 = Instance.new("TextButton")
+local _88 = Instance.new("TextButton")
+local _89 = Instance.new("TextButton")
+local _9 = Instance.new("TextButton")
+local _90 = Instance.new("TextButton")
+local _91 = Instance.new("TextButton")
+local _92 = Instance.new("TextButton")
+local _93 = Instance.new("TextButton")
+local _94 = Instance.new("TextButton")
+local _95 = Instance.new("TextButton")
+local _96 = Instance.new("TextButton")
+local _97 = Instance.new("TextButton")
+local _98 = Instance.new("TextButton")
+local IntroFrame = Instance.new("ImageLabel")
+local IntroLogo = Instance.new("TextLabel")
+
+SpectrumHub.Name = "SpectrumHub"
+SpectrumHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ButtonFrame.Name = "ButtonFrame"
+ButtonFrame.Parent = SpectrumHub
+ButtonFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+ButtonFrame.BackgroundTransparency = 1
+ButtonFrame.BorderSizePixel = 0
+ButtonFrame.ClipsDescendants = true
+ButtonFrame.Position = UDim2.new(1, -50, 2, -50)
+ButtonFrame.Size = UDim2.new(0, 40, 0, 40)
+
+OpenBG.Name = "OpenBG"
+OpenBG.Parent = ButtonFrame
+OpenBG.Active = true
+OpenBG.BackgroundColor3 = Color3.new(1, 1, 1)
+OpenBG.BackgroundTransparency = 1
+OpenBG.Selectable = true
+OpenBG.Size = UDim2.new(1, 0, 1, 0)
+OpenBG.Image = "rbxassetid://3570695787"
+OpenBG.ImageColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+OpenBG.ScaleType = Enum.ScaleType.Slice
+OpenBG.SliceCenter = Rect.new(100, 100, 100, 100)
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = ButtonFrame
+OpenButton.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+OpenButton.BackgroundTransparency = 1
+OpenButton.BorderSizePixel = 0
+OpenButton.Size = UDim2.new(1, 0, 1, 0)
+OpenButton.Font = Enum.Font.GothamBold
+OpenButton.Text = "<"
+OpenButton.TextColor3 = Color3.new(1, 1, 1)
+OpenButton.TextSize = 20
+
+HubFrame.Name = "HubFrame"
+HubFrame.Parent = SpectrumHub
+HubFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+HubFrame.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+HubFrame.BorderSizePixel = 0
+HubFrame.ClipsDescendants = true
+HubFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+HubFrame.Size = UDim2.new(0, 717, 0, 393)
+
+TopbarFrame.Name = "TopbarFrame"
+TopbarFrame.Parent = HubFrame
+TopbarFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+TopbarFrame.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+TopbarFrame.BorderSizePixel = 0
+TopbarFrame.Position = UDim2.new(0.5, 0, 0.0279898215, 0)
+TopbarFrame.Size = UDim2.new(0, 717, 0, 22)
+
+SpectrumTitle.Name = "SpectrumTitle"
+SpectrumTitle.Parent = TopbarFrame
+SpectrumTitle.BackgroundColor3 = Color3.new(1, 1, 1)
+SpectrumTitle.BackgroundTransparency = 1
+SpectrumTitle.BorderSizePixel = 0
+SpectrumTitle.Position = UDim2.new(0.386331946, 0, 0, 0)
+SpectrumTitle.Size = UDim2.new(0.225941405, 0, 1, 0)
+SpectrumTitle.Font = Enum.Font.GothamBold
+SpectrumTitle.Text = "Spectrum Hub"
+SpectrumTitle.TextColor3 = Color3.new(1, 1, 1)
+SpectrumTitle.TextSize = 13
+SpectrumTitle.TextWrapped = true
+
+Exit.Name = "Exit"
+Exit.Parent = TopbarFrame
+Exit.BackgroundColor3 = Color3.new(1, 0.329412, 0.329412)
+Exit.BackgroundTransparency = 1
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.974631131, 0, 0.181818187, 0)
+Exit.Size = UDim2.new(0.0157120842, 0, 0.56114614, 0)
+Exit.Font = Enum.Font.GothamBold
+Exit.Text = ""
+Exit.TextColor3 = Color3.new(1, 1, 1)
+Exit.TextSize = 20
+Exit.TextTransparency = 1
+
+Exit_Roundify_12px.Name = "Exit_Roundify_12px"
+Exit_Roundify_12px.Parent = Exit
+Exit_Roundify_12px.Active = true
+Exit_Roundify_12px.BackgroundColor3 = Color3.new(1, 1, 1)
+Exit_Roundify_12px.BackgroundTransparency = 1
+Exit_Roundify_12px.Selectable = true
+Exit_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Exit_Roundify_12px.Image = "rbxassetid://3570695787"
+Exit_Roundify_12px.ImageColor3 = Color3.new(1, 0.329412, 0.329412)
+Exit_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Exit_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+Minimize.Name = "Minimize"
+Minimize.Parent = TopbarFrame
+Minimize.BackgroundColor3 = Color3.new(0.956863, 0.815686, 0.32549)
+Minimize.BackgroundTransparency = 1
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0.947001398, 0, 0.181818187, 0)
+Minimize.Size = UDim2.new(0.0157120842, 0, 0.56114614, 0)
+Minimize.Font = Enum.Font.GothamBold
+Minimize.Text = ""
+Minimize.TextColor3 = Color3.new(1, 1, 1)
+Minimize.TextSize = 20
+Minimize.TextTransparency = 1
+
+Minimize_Roundify_12px.Name = "Minimize_Roundify_12px"
+Minimize_Roundify_12px.Parent = Minimize
+Minimize_Roundify_12px.Active = true
+Minimize_Roundify_12px.BackgroundColor3 = Color3.new(1, 1, 1)
+Minimize_Roundify_12px.BackgroundTransparency = 1
+Minimize_Roundify_12px.Selectable = true
+Minimize_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Minimize_Roundify_12px.Image = "rbxassetid://3570695787"
+Minimize_Roundify_12px.ImageColor3 = Color3.new(0.956863, 0.815686, 0.32549)
+Minimize_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Minimize_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+Credits.Name = "Credits"
+Credits.Parent = TopbarFrame
+Credits.BackgroundColor3 = Color3.new(1, 1, 1)
+Credits.BackgroundTransparency = 1
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0111576011, 0, 0, 0)
+Credits.Size = UDim2.new(0.258716851, 0, 1, 0)
+Credits.Font = Enum.Font.GothamBold
+Credits.Text = "Developed By Spectrum CC"
+Credits.TextColor3 = Color3.new(1, 1, 1)
+Credits.TextSize = 13
+Credits.TextWrapped = true
+Credits.TextXAlignment = Enum.TextXAlignment.Left
+
+ExecuteFrame.Name = "ExecuteFrame"
+ExecuteFrame.Parent = HubFrame
+ExecuteFrame.Active = true
+ExecuteFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+ExecuteFrame.BackgroundTransparency = 1
+ExecuteFrame.BorderSizePixel = 0
+ExecuteFrame.Position = UDim2.new(0, 0, 0.0890585259, 0)
+ExecuteFrame.Size = UDim2.new(1, 0, 0.910941482, 0)
+ExecuteFrame.CanvasSize = UDim2.new(0, 0, 6, 0)
+ExecuteFrame.ScrollBarThickness = 5
+
+UIGridLayout.Parent = ExecuteFrame
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 150, 0, 50)
+
+_1T.Name = "1T"
+_1T.Parent = ExecuteFrame
+_1T.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_1T.BackgroundTransparency = 1
+_1T.BorderSizePixel = 0
+_1T.Position = UDim2.new(-0.631799161, 0, 0.00212044106, 0)
+_1T.Size = UDim2.new(0, 200, 0, 50)
+_1T.Font = Enum.Font.GothamBold
+_1T.Text = "Game Scripts"
+_1T.TextColor3 = Color3.new(1, 1, 1)
+_1T.TextSize = 20
+_1T.TextWrapped = true
+_1T.TextXAlignment = Enum.TextXAlignment.Left
+
+_1TT.Name = "1TT"
+_1TT.Parent = ExecuteFrame
+_1TT.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_1TT.BackgroundTransparency = 1
+_1TT.BorderSizePixel = 0
+_1TT.Size = UDim2.new(0, 200, 0, 50)
+_1TT.Font = Enum.Font.GothamBold
+_1TT.Text = ""
+_1TT.TextColor3 = Color3.new(1, 1, 1)
+_1TT.TextSize = 20
+_1TT.TextWrapped = true
+
+_1TTT.Name = "1TTT"
+_1TTT.Parent = ExecuteFrame
+_1TTT.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_1TTT.BackgroundTransparency = 1
+_1TTT.BorderSizePixel = 0
+_1TTT.Size = UDim2.new(0, 200, 0, 50)
+_1TTT.Font = Enum.Font.GothamBold
+_1TTT.Text = ""
+_1TTT.TextColor3 = Color3.new(1, 1, 1)
+_1TTT.TextSize = 20
+_1TTT.TextWrapped = true
+
+_1TTTT.Name = "1TTTT"
+_1TTTT.Parent = ExecuteFrame
+_1TTTT.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_1TTTT.BackgroundTransparency = 1
+_1TTTT.BorderSizePixel = 0
+_1TTTT.Size = UDim2.new(0, 200, 0, 50)
+_1TTTT.Font = Enum.Font.GothamBold
+_1TTTT.Text = ""
+_1TTTT.TextColor3 = Color3.new(1, 1, 1)
+_1TTTT.TextSize = 20
+_1TTTT.TextWrapped = true
+
+_1.Name = "1"
+_1.Parent = ExecuteFrame
+_1.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_1.BorderSizePixel = 0
+_1.Size = UDim2.new(0, 200, 0, 50)
+_1.Font = Enum.Font.GothamBold
+_1.Text = "A Bizzare Day"
+_1.TextColor3 = Color3.new(1, 1, 1)
+_1.TextSize = 20
+_1.TextWrapped = true
+
+_10.Name = "10"
+_10.Parent = ExecuteFrame
+_10.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_10.BorderSizePixel = 0
+_10.Size = UDim2.new(0, 200, 0, 50)
+_10.Font = Enum.Font.GothamBold
+_10.Text = "Bee Swarm Simulator"
+_10.TextColor3 = Color3.new(1, 1, 1)
+_10.TextSize = 20
+_10.TextWrapped = true
+
+_100.Name = "100"
+_100.Parent = ExecuteFrame
+_100.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_100.BorderSizePixel = 0
+_100.Size = UDim2.new(0, 200, 0, 50)
+_100.Font = Enum.Font.GothamBold
+_100.Text = "Pet Simulator 2"
+_100.TextColor3 = Color3.new(1, 1, 1)
+_100.TextSize = 20
+_100.TextWrapped = true
+
+_101.Name = "101"
+_101.Parent = ExecuteFrame
+_101.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_101.BorderSizePixel = 0
+_101.Size = UDim2.new(0, 200, 0, 50)
+_101.Font = Enum.Font.GothamBold
+_101.Text = "Phantom Forces"
+_101.TextColor3 = Color3.new(1, 1, 1)
+_101.TextSize = 20
+_101.TextWrapped = true
+
+_102.Name = "102"
+_102.Parent = ExecuteFrame
+_102.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_102.BorderSizePixel = 0
+_102.Size = UDim2.new(0, 200, 0, 50)
+_102.Font = Enum.Font.GothamBold
+_102.Text = "Pickaxe Simulator"
+_102.TextColor3 = Color3.new(1, 1, 1)
+_102.TextSize = 20
+_102.TextWrapped = true
+
+_103.Name = "103"
+_103.Parent = ExecuteFrame
+_103.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_103.BorderSizePixel = 0
+_103.Size = UDim2.new(0, 200, 0, 50)
+_103.Font = Enum.Font.GothamBold
+_103.Text = "Piggy"
+_103.TextColor3 = Color3.new(1, 1, 1)
+_103.TextSize = 20
+_103.TextWrapped = true
+
+_104.Name = "104"
+_104.Parent = ExecuteFrame
+_104.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_104.BorderSizePixel = 0
+_104.Size = UDim2.new(0, 200, 0, 50)
+_104.Font = Enum.Font.GothamBold
+_104.Text = "Present Simulator"
+_104.TextColor3 = Color3.new(1, 1, 1)
+_104.TextSize = 20
+_104.TextWrapped = true
+
+_105.Name = "105"
+_105.Parent = ExecuteFrame
+_105.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_105.BorderSizePixel = 0
+_105.Size = UDim2.new(0, 200, 0, 50)
+_105.Font = Enum.Font.GothamBold
+_105.Text = "Prison Life"
+_105.TextColor3 = Color3.new(1, 1, 1)
+_105.TextSize = 20
+_105.TextWrapped = true
+
+_106.Name = "106"
+_106.Parent = ExecuteFrame
+_106.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_106.BorderSizePixel = 0
+_106.Size = UDim2.new(0, 200, 0, 50)
+_106.Font = Enum.Font.GothamBold
+_106.Text = "Project Jojo"
+_106.TextColor3 = Color3.new(1, 1, 1)
+_106.TextSize = 20
+_106.TextWrapped = true
+
+_107.Name = "107"
+_107.Parent = ExecuteFrame
+_107.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_107.BorderSizePixel = 0
+_107.Size = UDim2.new(0, 200, 0, 50)
+_107.Font = Enum.Font.GothamBold
+_107.Text = "Really Easy Obby"
+_107.TextColor3 = Color3.new(1, 1, 1)
+_107.TextSize = 20
+_107.TextWrapped = true
+
+_108.Name = "108"
+_108.Parent = ExecuteFrame
+_108.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_108.BorderSizePixel = 0
+_108.Size = UDim2.new(0, 200, 0, 50)
+_108.Font = Enum.Font.GothamBold
+_108.Text = "Redwood Prison"
+_108.TextColor3 = Color3.new(1, 1, 1)
+_108.TextSize = 20
+_108.TextWrapped = true
+
+_109.Name = "109"
+_109.Parent = ExecuteFrame
+_109.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_109.BorderSizePixel = 0
+_109.Size = UDim2.new(0, 200, 0, 50)
+_109.Font = Enum.Font.GothamBold
+_109.Text = "Restaurant Tycoon 2"
+_109.TextColor3 = Color3.new(1, 1, 1)
+_109.TextSize = 20
+_109.TextWrapped = true
+
+_11.Name = "11"
+_11.Parent = ExecuteFrame
+_11.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_11.BorderSizePixel = 0
+_11.Size = UDim2.new(0, 200, 0, 50)
+_11.Font = Enum.Font.GothamBold
+_11.Text = "BIG Paintball"
+_11.TextColor3 = Color3.new(1, 1, 1)
+_11.TextSize = 20
+_11.TextWrapped = true
+
+_110.Name = "110"
+_110.Parent = ExecuteFrame
+_110.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_110.BorderSizePixel = 0
+_110.Size = UDim2.new(0, 200, 0, 50)
+_110.Font = Enum.Font.GothamBold
+_110.Text = "Robot 64"
+_110.TextColor3 = Color3.new(1, 1, 1)
+_110.TextSize = 20
+_110.TextWrapped = true
+
+_111.Name = "111"
+_111.Parent = ExecuteFrame
+_111.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_111.BorderSizePixel = 0
+_111.Size = UDim2.new(0, 200, 0, 50)
+_111.Font = Enum.Font.GothamBold
+_111.Text = "Robot INC"
+_111.TextColor3 = Color3.new(1, 1, 1)
+_111.TextSize = 20
+_111.TextWrapped = true
+
+_112.Name = "112"
+_112.Parent = ExecuteFrame
+_112.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_112.BorderSizePixel = 0
+_112.Size = UDim2.new(0, 200, 0, 50)
+_112.Font = Enum.Font.GothamBold
+_112.Text = "RoCitizens"
+_112.TextColor3 = Color3.new(1, 1, 1)
+_112.TextSize = 20
+_112.TextWrapped = true
+
+_113.Name = "113"
+_113.Parent = ExecuteFrame
+_113.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_113.BorderSizePixel = 0
+_113.Size = UDim2.new(0, 200, 0, 50)
+_113.Font = Enum.Font.GothamBold
+_113.Text = "Ro Ghoul"
+_113.TextColor3 = Color3.new(1, 1, 1)
+_113.TextSize = 20
+_113.TextWrapped = true
+
+_114.Name = "114"
+_114.Parent = ExecuteFrame
+_114.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_114.BorderSizePixel = 0
+_114.Size = UDim2.new(0, 200, 0, 50)
+_114.Font = Enum.Font.GothamBold
+_114.Text = "Rogue Lineage"
+_114.TextColor3 = Color3.new(1, 1, 1)
+_114.TextSize = 20
+_114.TextWrapped = true
+
+_115.Name = "115"
+_115.Parent = ExecuteFrame
+_115.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_115.BorderSizePixel = 0
+_115.Size = UDim2.new(0, 200, 0, 50)
+_115.Font = Enum.Font.GothamBold
+_115.Text = "Ro-Slayer"
+_115.TextColor3 = Color3.new(1, 1, 1)
+_115.TextSize = 20
+_115.TextWrapped = true
+
+_116.Name = "116"
+_116.Parent = ExecuteFrame
+_116.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_116.BorderSizePixel = 0
+_116.Size = UDim2.new(0, 200, 0, 50)
+_116.Font = Enum.Font.GothamBold
+_116.Text = "RoVille"
+_116.TextColor3 = Color3.new(1, 1, 1)
+_116.TextSize = 20
+_116.TextWrapped = true
+
+_117.Name = "117"
+_117.Parent = ExecuteFrame
+_117.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_117.BorderSizePixel = 0
+_117.Size = UDim2.new(0, 200, 0, 50)
+_117.Font = Enum.Font.GothamBold
+_117.Text = "RPG SImulator"
+_117.TextColor3 = Color3.new(1, 1, 1)
+_117.TextSize = 20
+_117.TextWrapped = true
+
+_118.Name = "118"
+_118.Parent = ExecuteFrame
+_118.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_118.BorderSizePixel = 0
+_118.Size = UDim2.new(0, 200, 0, 50)
+_118.Font = Enum.Font.GothamBold
+_118.Text = "Rumble Quest"
+_118.TextColor3 = Color3.new(1, 1, 1)
+_118.TextSize = 20
+_118.TextWrapped = true
+
+_119.Name = "119"
+_119.Parent = ExecuteFrame
+_119.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_119.BorderSizePixel = 0
+_119.Position = UDim2.new(-0.00697350083, 0, 0, 0)
+_119.Size = UDim2.new(0, 200, 0, 50)
+_119.Font = Enum.Font.GothamBold
+_119.Text = "Saber Simulator"
+_119.TextColor3 = Color3.new(1, 1, 1)
+_119.TextSize = 20
+_119.TextWrapped = true
+
+_12.Name = "12"
+_12.Parent = ExecuteFrame
+_12.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_12.BorderSizePixel = 0
+_12.Size = UDim2.new(0, 200, 0, 50)
+_12.Font = Enum.Font.GothamBold
+_12.Text = "Billionare Simulator"
+_12.TextColor3 = Color3.new(1, 1, 1)
+_12.TextSize = 20
+_12.TextWrapped = true
+
+_120.Name = "120"
+_120.Parent = ExecuteFrame
+_120.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_120.BorderSizePixel = 0
+_120.Size = UDim2.new(0, 200, 0, 50)
+_120.Font = Enum.Font.GothamBold
+_120.Text = "SharkBite"
+_120.TextColor3 = Color3.new(1, 1, 1)
+_120.TextSize = 20
+_120.TextWrapped = true
+
+_121.Name = "121"
+_121.Parent = ExecuteFrame
+_121.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_121.BorderSizePixel = 0
+_121.Position = UDim2.new(0.020920502, 0, 0, 0)
+_121.Size = UDim2.new(0, 200, 0, 50)
+_121.Font = Enum.Font.GothamBold
+_121.Text = "Silent Assassin"
+_121.TextColor3 = Color3.new(1, 1, 1)
+_121.TextSize = 20
+_121.TextWrapped = true
+
+_122.Name = "122"
+_122.Parent = ExecuteFrame
+_122.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_122.BorderSizePixel = 0
+_122.Size = UDim2.new(0, 200, 0, 50)
+_122.Font = Enum.Font.GothamBold
+_122.Text = "Sizzling Simulator"
+_122.TextColor3 = Color3.new(1, 1, 1)
+_122.TextSize = 20
+_122.TextWrapped = true
+
+_123.Name = "123"
+_123.Parent = ExecuteFrame
+_123.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_123.BorderSizePixel = 0
+_123.Size = UDim2.new(0, 200, 0, 50)
+_123.Font = Enum.Font.GothamBold
+_123.Text = "SkyWars"
+_123.TextColor3 = Color3.new(1, 1, 1)
+_123.TextSize = 20
+_123.TextWrapped = true
+
+_124.Name = "124"
+_124.Parent = ExecuteFrame
+_124.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_124.BorderSizePixel = 0
+_124.Size = UDim2.new(0, 200, 0, 50)
+_124.Font = Enum.Font.GothamBold
+_124.Text = "Slicing Simulator"
+_124.TextColor3 = Color3.new(1, 1, 1)
+_124.TextSize = 20
+_124.TextWrapped = true
+
+_125.Name = "125"
+_125.Parent = ExecuteFrame
+_125.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_125.BorderSizePixel = 0
+_125.Size = UDim2.new(0, 200, 0, 50)
+_125.Font = Enum.Font.GothamBold
+_125.Text = "SnowMan Simulator"
+_125.TextColor3 = Color3.new(1, 1, 1)
+_125.TextSize = 20
+_125.TextWrapped = true
+
+_126.Name = "126"
+_126.Parent = ExecuteFrame
+_126.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_126.BorderSizePixel = 0
+_126.Size = UDim2.new(0, 200, 0, 50)
+_126.Font = Enum.Font.GothamBold
+_126.Text = "Soda Simulator"
+_126.TextColor3 = Color3.new(1, 1, 1)
+_126.TextSize = 20
+_126.TextWrapped = true
+
+_127.Name = "127"
+_127.Parent = ExecuteFrame
+_127.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_127.BorderSizePixel = 0
+_127.Size = UDim2.new(0, 200, 0, 50)
+_127.Font = Enum.Font.GothamBold
+_127.Text = "Speed Champions"
+_127.TextColor3 = Color3.new(1, 1, 1)
+_127.TextSize = 20
+_127.TextWrapped = true
+
+_128.Name = "128"
+_128.Parent = ExecuteFrame
+_128.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_128.BorderSizePixel = 0
+_128.Size = UDim2.new(0, 200, 0, 50)
+_128.Font = Enum.Font.GothamBold
+_128.Text = "Speed City"
+_128.TextColor3 = Color3.new(1, 1, 1)
+_128.TextSize = 20
+_128.TextWrapped = true
+
+_129.Name = "129"
+_129.Parent = ExecuteFrame
+_129.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_129.BorderSizePixel = 0
+_129.Size = UDim2.new(0, 200, 0, 50)
+_129.Font = Enum.Font.GothamBold
+_129.Text = "Sprinting Heroes"
+_129.TextColor3 = Color3.new(1, 1, 1)
+_129.TextSize = 20
+_129.TextWrapped = true
+
+_13.Name = "13"
+_13.Parent = ExecuteFrame
+_13.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_13.BorderSizePixel = 0
+_13.Size = UDim2.new(0, 200, 0, 50)
+_13.Font = Enum.Font.GothamBold
+_13.Text = "Blade Simulator"
+_13.TextColor3 = Color3.new(1, 1, 1)
+_13.TextSize = 20
+_13.TextWrapped = true
+
+_130.Name = "130"
+_130.Parent = ExecuteFrame
+_130.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_130.BorderSizePixel = 0
+_130.Size = UDim2.new(0, 200, 0, 50)
+_130.Font = Enum.Font.GothamBold
+_130.Text = "Sprinting Simulator"
+_130.TextColor3 = Color3.new(1, 1, 1)
+_130.TextSize = 20
+_130.TextWrapped = true
+
+_131.Name = "131"
+_131.Parent = ExecuteFrame
+_131.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_131.BorderSizePixel = 0
+_131.Size = UDim2.new(0, 200, 0, 50)
+_131.Font = Enum.Font.GothamBold
+_131.Text = "Stands Online"
+_131.TextColor3 = Color3.new(1, 1, 1)
+_131.TextSize = 20
+_131.TextWrapped = true
+
+_132.Name = "132"
+_132.Parent = ExecuteFrame
+_132.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_132.BorderSizePixel = 0
+_132.Size = UDim2.new(0, 200, 0, 50)
+_132.Font = Enum.Font.GothamBold
+_132.Text = "Strucid"
+_132.TextColor3 = Color3.new(1, 1, 1)
+_132.TextSize = 20
+_132.TextWrapped = true
+
+_133.Name = "133"
+_133.Parent = ExecuteFrame
+_133.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_133.BorderSizePixel = 0
+_133.Size = UDim2.new(0, 200, 0, 50)
+_133.Font = Enum.Font.GothamBold
+_133.Text = "Super Blocky Ball"
+_133.TextColor3 = Color3.new(1, 1, 1)
+_133.TextSize = 20
+_133.TextWrapped = true
+
+_134.Name = "134"
+_134.Parent = ExecuteFrame
+_134.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_134.BorderSizePixel = 0
+_134.Size = UDim2.new(0, 200, 0, 50)
+_134.Font = Enum.Font.GothamBold
+_134.Text = "Super Doomspire"
+_134.TextColor3 = Color3.new(1, 1, 1)
+_134.TextSize = 20
+_134.TextWrapped = true
+
+_135.Name = "135"
+_135.Parent = ExecuteFrame
+_135.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_135.BorderSizePixel = 0
+_135.Size = UDim2.new(0, 200, 0, 50)
+_135.Font = Enum.Font.GothamBold
+_135.Text = "Superhero Simulator"
+_135.TextColor3 = Color3.new(1, 1, 1)
+_135.TextSize = 20
+_135.TextWrapped = true
+
+_136.Name = "136"
+_136.Parent = ExecuteFrame
+_136.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_136.BorderSizePixel = 0
+_136.Size = UDim2.new(0, 200, 0, 50)
+_136.Font = Enum.Font.GothamBold
+_136.Text = "Super Power Training Simulator"
+_136.TextColor3 = Color3.new(1, 1, 1)
+_136.TextScaled = true
+_136.TextSize = 20
+_136.TextWrapped = true
+
+_137.Name = "137"
+_137.Parent = ExecuteFrame
+_137.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_137.BorderSizePixel = 0
+_137.Size = UDim2.new(0, 200, 0, 50)
+_137.Font = Enum.Font.GothamBold
+_137.Text = "Survive The Killer!"
+_137.TextColor3 = Color3.new(1, 1, 1)
+_137.TextSize = 20
+_137.TextWrapped = true
+
+_138.Name = "138"
+_138.Parent = ExecuteFrame
+_138.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_138.BorderSizePixel = 0
+_138.Size = UDim2.new(0, 200, 0, 50)
+_138.Font = Enum.Font.GothamBold
+_138.Text = "Texting Simulator"
+_138.TextColor3 = Color3.new(1, 1, 1)
+_138.TextSize = 20
+_138.TextWrapped = true
+
+_139.Name = "139"
+_139.Parent = ExecuteFrame
+_139.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_139.BorderSizePixel = 0
+_139.Size = UDim2.new(0, 200, 0, 50)
+_139.Font = Enum.Font.GothamBold
+_139.Text = "Thanos is Eating"
+_139.TextColor3 = Color3.new(1, 1, 1)
+_139.TextSize = 20
+_139.TextWrapped = true
+
+_14.Name = "14"
+_14.Parent = ExecuteFrame
+_14.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_14.BorderSizePixel = 0
+_14.Size = UDim2.new(0, 200, 0, 50)
+_14.Font = Enum.Font.GothamBold
+_14.Text = "Blade Throwing Simulator"
+_14.TextColor3 = Color3.new(1, 1, 1)
+_14.TextSize = 20
+_14.TextWrapped = true
+
+_140.Name = "140"
+_140.Parent = ExecuteFrame
+_140.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_140.BorderSizePixel = 0
+_140.Size = UDim2.new(0, 200, 0, 50)
+_140.Font = Enum.Font.GothamBold
+_140.Text = "Thick Legends"
+_140.TextColor3 = Color3.new(1, 1, 1)
+_140.TextSize = 20
+_140.TextWrapped = true
+
+_141.Name = "141"
+_141.Parent = ExecuteFrame
+_141.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_141.BorderSizePixel = 0
+_141.Size = UDim2.new(0, 200, 0, 50)
+_141.Font = Enum.Font.GothamBold
+_141.Text = "Thief Life Simulator"
+_141.TextColor3 = Color3.new(1, 1, 1)
+_141.TextSize = 20
+_141.TextWrapped = true
+
+_142.Name = "142"
+_142.Parent = ExecuteFrame
+_142.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_142.BorderSizePixel = 0
+_142.Size = UDim2.new(0, 200, 0, 50)
+_142.Font = Enum.Font.GothamBold
+_142.Text = "Treacherous Tower"
+_142.TextColor3 = Color3.new(1, 1, 1)
+_142.TextSize = 20
+_142.TextWrapped = true
+
+_143.Name = "143"
+_143.Parent = ExecuteFrame
+_143.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_143.BorderSizePixel = 0
+_143.Size = UDim2.new(0, 200, 0, 50)
+_143.Font = Enum.Font.GothamBold
+_143.Text = "Treasure Quest"
+_143.TextColor3 = Color3.new(1, 1, 1)
+_143.TextSize = 20
+_143.TextWrapped = true
+
+_144.Name = "144"
+_144.Parent = ExecuteFrame
+_144.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_144.BorderSizePixel = 0
+_144.Size = UDim2.new(0, 200, 0, 50)
+_144.Font = Enum.Font.GothamBold
+_144.Text = "Tree Planting Simulator"
+_144.TextColor3 = Color3.new(1, 1, 1)
+_144.TextSize = 20
+_144.TextWrapped = true
+
+_145.Name = "145"
+_145.Parent = ExecuteFrame
+_145.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_145.BorderSizePixel = 0
+_145.Size = UDim2.new(0, 200, 0, 50)
+_145.Font = Enum.Font.GothamBold
+_145.Text = "Vehicle Simulator"
+_145.TextColor3 = Color3.new(1, 1, 1)
+_145.TextSize = 20
+_145.TextWrapped = true
+
+_146.Name = "146"
+_146.Parent = ExecuteFrame
+_146.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_146.BorderSizePixel = 0
+_146.Size = UDim2.new(0, 200, 0, 50)
+_146.Font = Enum.Font.GothamBold
+_146.Text = "Vehicle Tycoon"
+_146.TextColor3 = Color3.new(1, 1, 1)
+_146.TextSize = 20
+_146.TextWrapped = true
+
+_147.Name = "147"
+_147.Parent = ExecuteFrame
+_147.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_147.BorderSizePixel = 0
+_147.Size = UDim2.new(0, 200, 0, 50)
+_147.Font = Enum.Font.GothamBold
+_147.Text = "Viking Simulator"
+_147.TextColor3 = Color3.new(1, 1, 1)
+_147.TextSize = 20
+_147.TextWrapped = true
+
+_148.Name = "148"
+_148.Parent = ExecuteFrame
+_148.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_148.BorderSizePixel = 0
+_148.Size = UDim2.new(0, 200, 0, 50)
+_148.Font = Enum.Font.GothamBold
+_148.Text = "Weight Lifting Simulator 3"
+_148.TextColor3 = Color3.new(1, 1, 1)
+_148.TextSize = 20
+_148.TextWrapped = true
+
+_149.Name = "149"
+_149.Parent = ExecuteFrame
+_149.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_149.BorderSizePixel = 0
+_149.Size = UDim2.new(0, 200, 0, 50)
+_149.Font = Enum.Font.GothamBold
+_149.Text = "Wing Simulator"
+_149.TextColor3 = Color3.new(1, 1, 1)
+_149.TextSize = 20
+_149.TextWrapped = true
+
+_15.Name = "15"
+_15.Parent = ExecuteFrame
+_15.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_15.BorderSizePixel = 0
+_15.Size = UDim2.new(0, 200, 0, 50)
+_15.Font = Enum.Font.GothamBold
+_15.Text = "Blox Hunt"
+_15.TextColor3 = Color3.new(1, 1, 1)
+_15.TextSize = 20
+_15.TextWrapped = true
+
+_150.Name = "150"
+_150.Parent = ExecuteFrame
+_150.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_150.BorderSizePixel = 0
+_150.Size = UDim2.new(0, 200, 0, 50)
+_150.Font = Enum.Font.GothamBold
+_150.Text = "Wood Chop Simulator"
+_150.TextColor3 = Color3.new(1, 1, 1)
+_150.TextSize = 20
+_150.TextWrapped = true
+
+_151.Name = "151"
+_151.Parent = ExecuteFrame
+_151.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_151.BorderSizePixel = 0
+_151.Size = UDim2.new(0, 200, 0, 50)
+_151.Font = Enum.Font.GothamBold
+_151.Text = "Work at a Pizza Place"
+_151.TextColor3 = Color3.new(1, 1, 1)
+_151.TextSize = 20
+_151.TextWrapped = true
+
+_152.Name = "152"
+_152.Parent = ExecuteFrame
+_152.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_152.BorderSizePixel = 0
+_152.Size = UDim2.new(0, 200, 0, 50)
+_152.Font = Enum.Font.GothamBold
+_152.Text = "World of Magic"
+_152.TextColor3 = Color3.new(1, 1, 1)
+_152.TextSize = 20
+_152.TextWrapped = true
+
+_153.Name = "153"
+_153.Parent = ExecuteFrame
+_153.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_153.BorderSizePixel = 0
+_153.Size = UDim2.new(0, 200, 0, 50)
+_153.Font = Enum.Font.GothamBold
+_153.Text = "Youtube Tycoon"
+_153.TextColor3 = Color3.new(1, 1, 1)
+_153.TextSize = 20
+_153.TextWrapped = true
+
+_154.Name = "154"
+_154.Parent = ExecuteFrame
+_154.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_154.BorderSizePixel = 0
+_154.Size = UDim2.new(0, 200, 0, 50)
+_154.Font = Enum.Font.GothamBold
+_154.Text = "Zombie Rush"
+_154.TextColor3 = Color3.new(1, 1, 1)
+_154.TextSize = 20
+_154.TextWrapped = true
+
+_155.Name = "155"
+_155.Parent = ExecuteFrame
+_155.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_155.BorderSizePixel = 0
+_155.Size = UDim2.new(0, 200, 0, 50)
+_155.Font = Enum.Font.GothamBold
+_155.Text = "Zombie Strike"
+_155.TextColor3 = Color3.new(1, 1, 1)
+_155.TextSize = 20
+_155.TextWrapped = true
+
+_99.Name = "99"
+_99.Parent = ExecuteFrame
+_99.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_99.BorderSizePixel = 0
+_99.Size = UDim2.new(0, 200, 0, 50)
+_99.Font = Enum.Font.GothamBold
+_99.Text = "Pet Simulator 2"
+_99.TextColor3 = Color3.new(1, 1, 1)
+_99.TextSize = 20
+_99.TextWrapped = true
+
+_16.Name = "16"
+_16.Parent = ExecuteFrame
+_16.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_16.BorderSizePixel = 0
+_16.Size = UDim2.new(0, 200, 0, 50)
+_16.Font = Enum.Font.GothamBold
+_16.Text = "Blox Piece"
+_16.TextColor3 = Color3.new(1, 1, 1)
+_16.TextSize = 20
+_16.TextWrapped = true
+
+_17.Name = "17"
+_17.Parent = ExecuteFrame
+_17.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_17.BorderSizePixel = 0
+_17.Size = UDim2.new(0, 200, 0, 50)
+_17.Font = Enum.Font.GothamBold
+_17.Text = "Booga Booga"
+_17.TextColor3 = Color3.new(1, 1, 1)
+_17.TextSize = 20
+_17.TextWrapped = true
+
+_18.Name = "18"
+_18.Parent = ExecuteFrame
+_18.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_18.BorderSizePixel = 0
+_18.Size = UDim2.new(0, 200, 0, 50)
+_18.Font = Enum.Font.GothamBold
+_18.Text = "Boss Fight Simulator"
+_18.TextColor3 = Color3.new(1, 1, 1)
+_18.TextSize = 20
+_18.TextWrapped = true
+
+_19.Name = "19"
+_19.Parent = ExecuteFrame
+_19.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_19.BorderSizePixel = 0
+_19.Size = UDim2.new(0, 200, 0, 50)
+_19.Font = Enum.Font.GothamBold
+_19.Text = "Bow Simulator"
+_19.TextColor3 = Color3.new(1, 1, 1)
+_19.TextSize = 20
+_19.TextWrapped = true
+
+_2.Name = "2"
+_2.Parent = ExecuteFrame
+_2.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_2.BorderSizePixel = 0
+_2.Size = UDim2.new(0, 200, 0, 50)
+_2.Font = Enum.Font.GothamBold
+_2.Text = "A Modded Day"
+_2.TextColor3 = Color3.new(1, 1, 1)
+_2.TextSize = 20
+_2.TextWrapped = true
+
+_20.Name = "20"
+_20.Parent = ExecuteFrame
+_20.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_20.BorderSizePixel = 0
+_20.Size = UDim2.new(0, 200, 0, 50)
+_20.Font = Enum.Font.GothamBold
+_20.Text = "Boxing Simulator"
+_20.TextColor3 = Color3.new(1, 1, 1)
+_20.TextSize = 20
+_20.TextWrapped = true
+
+_21.Name = "21"
+_21.Parent = ExecuteFrame
+_21.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_21.BorderSizePixel = 0
+_21.Size = UDim2.new(0, 200, 0, 50)
+_21.Font = Enum.Font.GothamBold
+_21.Text = "Boys and Girls Hangout"
+_21.TextColor3 = Color3.new(1, 1, 1)
+_21.TextSize = 20
+_21.TextWrapped = true
+
+_22.Name = "22"
+_22.Parent = ExecuteFrame
+_22.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_22.BorderSizePixel = 0
+_22.Size = UDim2.new(0, 200, 0, 50)
+_22.Font = Enum.Font.GothamBold
+_22.Text = "Breaking Point"
+_22.TextColor3 = Color3.new(1, 1, 1)
+_22.TextSize = 20
+_22.TextWrapped = true
+
+_23.Name = "23"
+_23.Parent = ExecuteFrame
+_23.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_23.BorderSizePixel = 0
+_23.Size = UDim2.new(0, 200, 0, 50)
+_23.Font = Enum.Font.GothamBold
+_23.Text = "Bubble Gum Simulator"
+_23.TextColor3 = Color3.new(1, 1, 1)
+_23.TextSize = 20
+_23.TextWrapped = true
+
+_24.Name = "24"
+_24.Parent = ExecuteFrame
+_24.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_24.BorderSizePixel = 0
+_24.Size = UDim2.new(0, 200, 0, 50)
+_24.Font = Enum.Font.GothamBold
+_24.Text = "Build a Boat for Treasure"
+_24.TextColor3 = Color3.new(1, 1, 1)
+_24.TextSize = 20
+_24.TextWrapped = true
+
+_25.Name = "25"
+_25.Parent = ExecuteFrame
+_25.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_25.BorderSizePixel = 0
+_25.Size = UDim2.new(0, 200, 0, 50)
+_25.Font = Enum.Font.GothamBold
+_25.Text = "Building Simulator 2"
+_25.TextColor3 = Color3.new(1, 1, 1)
+_25.TextSize = 20
+_25.TextWrapped = true
+
+_26.Name = "26"
+_26.Parent = ExecuteFrame
+_26.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_26.BorderSizePixel = 0
+_26.Size = UDim2.new(0, 200, 0, 50)
+_26.Font = Enum.Font.GothamBold
+_26.Text = "Champion Simulator"
+_26.TextColor3 = Color3.new(1, 1, 1)
+_26.TextSize = 20
+_26.TextWrapped = true
+
+_27.Name = "27"
+_27.Parent = ExecuteFrame
+_27.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_27.BorderSizePixel = 0
+_27.Size = UDim2.new(0, 200, 0, 50)
+_27.Font = Enum.Font.GothamBold
+_27.Text = "Counter Blox"
+_27.TextColor3 = Color3.new(1, 1, 1)
+_27.TextSize = 20
+_27.TextWrapped = true
+
+_28.Name = "28"
+_28.Parent = ExecuteFrame
+_28.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_28.BorderSizePixel = 0
+_28.Size = UDim2.new(0, 200, 0, 50)
+_28.Font = Enum.Font.GothamBold
+_28.Text = "Da Hood"
+_28.TextColor3 = Color3.new(1, 1, 1)
+_28.TextSize = 20
+_28.TextWrapped = true
+
+_29.Name = "29"
+_29.Parent = ExecuteFrame
+_29.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_29.BorderSizePixel = 0
+_29.Size = UDim2.new(0, 200, 0, 50)
+_29.Font = Enum.Font.GothamBold
+_29.Text = "Dragon Adventures"
+_29.TextColor3 = Color3.new(1, 1, 1)
+_29.TextSize = 20
+_29.TextWrapped = true
+
+_3.Name = "3"
+_3.Parent = ExecuteFrame
+_3.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_3.BorderSizePixel = 0
+_3.Size = UDim2.new(0, 200, 0, 50)
+_3.Font = Enum.Font.GothamBold
+_3.Text = "Anime Fighting Simulator"
+_3.TextColor3 = Color3.new(1, 1, 1)
+_3.TextSize = 20
+_3.TextWrapped = true
+
+_30.Name = "30"
+_30.Parent = ExecuteFrame
+_30.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_30.BorderSizePixel = 0
+_30.Size = UDim2.new(0, 200, 0, 50)
+_30.Font = Enum.Font.GothamBold
+_30.Text = "Dragon Ball Rage"
+_30.TextColor3 = Color3.new(1, 1, 1)
+_30.TextSize = 20
+_30.TextWrapped = true
+
+_31.Name = "31"
+_31.Parent = ExecuteFrame
+_31.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_31.BorderSizePixel = 0
+_31.Size = UDim2.new(0, 200, 0, 50)
+_31.Font = Enum.Font.GothamBold
+_31.Text = "Dragon Ball Ultimate"
+_31.TextColor3 = Color3.new(1, 1, 1)
+_31.TextSize = 20
+_31.TextWrapped = true
+
+_32.Name = "32"
+_32.Parent = ExecuteFrame
+_32.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_32.BorderSizePixel = 0
+_32.Size = UDim2.new(0, 200, 0, 50)
+_32.Font = Enum.Font.GothamBold
+_32.Text = "Drifting Simulator"
+_32.TextColor3 = Color3.new(1, 1, 1)
+_32.TextSize = 20
+_32.TextWrapped = true
+
+_33.Name = "33"
+_33.Parent = ExecuteFrame
+_33.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_33.BorderSizePixel = 0
+_33.Size = UDim2.new(0, 200, 0, 50)
+_33.Font = Enum.Font.GothamBold
+_33.Text = "Dungeon Quest"
+_33.TextColor3 = Color3.new(1, 1, 1)
+_33.TextSize = 20
+_33.TextWrapped = true
+
+_34.Name = "34"
+_34.Parent = ExecuteFrame
+_34.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_34.BorderSizePixel = 0
+_34.Size = UDim2.new(0, 200, 0, 50)
+_34.Font = Enum.Font.GothamBold
+_34.Text = "Dungeon Simulator"
+_34.TextColor3 = Color3.new(1, 1, 1)
+_34.TextSize = 20
+_34.TextWrapped = true
+
+_35.Name = "35"
+_35.Parent = ExecuteFrame
+_35.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_35.BorderSizePixel = 0
+_35.Size = UDim2.new(0, 200, 0, 50)
+_35.Font = Enum.Font.GothamBold
+_35.Text = "Eg!"
+_35.TextColor3 = Color3.new(1, 1, 1)
+_35.TextSize = 20
+_35.TextWrapped = true
+
+_36.Name = "36"
+_36.Parent = ExecuteFrame
+_36.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_36.BorderSizePixel = 0
+_36.Size = UDim2.new(0, 200, 0, 50)
+_36.Font = Enum.Font.GothamBold
+_36.Text = "Egg Clicker"
+_36.TextColor3 = Color3.new(1, 1, 1)
+_36.TextSize = 20
+_36.TextWrapped = true
+
+_37.Name = "37"
+_37.Parent = ExecuteFrame
+_37.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_37.BorderSizePixel = 0
+_37.Size = UDim2.new(0, 200, 0, 50)
+_37.Font = Enum.Font.GothamBold
+_37.Text = "Extreme Sprinting"
+_37.TextColor3 = Color3.new(1, 1, 1)
+_37.TextSize = 20
+_37.TextWrapped = true
+
+_38.Name = "38"
+_38.Parent = ExecuteFrame
+_38.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_38.BorderSizePixel = 0
+_38.Size = UDim2.new(0, 200, 0, 50)
+_38.Font = Enum.Font.GothamBold
+_38.Text = "Faction Defence"
+_38.TextColor3 = Color3.new(1, 1, 1)
+_38.TextSize = 20
+_38.TextWrapped = true
+
+_39.Name = "39"
+_39.Parent = ExecuteFrame
+_39.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_39.BorderSizePixel = 0
+_39.Size = UDim2.new(0, 200, 0, 50)
+_39.Font = Enum.Font.GothamBold
+_39.Text = "Flight Simulator"
+_39.TextColor3 = Color3.new(1, 1, 1)
+_39.TextSize = 20
+_39.TextWrapped = true
+
+_4.Name = "4"
+_4.Parent = ExecuteFrame
+_4.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_4.BorderSizePixel = 0
+_4.Size = UDim2.new(0, 200, 0, 50)
+_4.Font = Enum.Font.GothamBold
+_4.Text = "Apocalypse Rising"
+_4.TextColor3 = Color3.new(1, 1, 1)
+_4.TextSize = 20
+_4.TextWrapped = true
+
+_40.Name = "40"
+_40.Parent = ExecuteFrame
+_40.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_40.BorderSizePixel = 0
+_40.Size = UDim2.new(0, 200, 0, 50)
+_40.Font = Enum.Font.GothamBold
+_40.Text = "Flood Escape 2"
+_40.TextColor3 = Color3.new(1, 1, 1)
+_40.TextSize = 20
+_40.TextWrapped = true
+
+_41.Name = "41"
+_41.Parent = ExecuteFrame
+_41.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_41.BorderSizePixel = 0
+_41.Size = UDim2.new(0, 200, 0, 50)
+_41.Font = Enum.Font.GothamBold
+_41.Text = "Fortress Simulator"
+_41.TextColor3 = Color3.new(1, 1, 1)
+_41.TextSize = 20
+_41.TextWrapped = true
+
+_42.Name = "42"
+_42.Parent = ExecuteFrame
+_42.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_42.BorderSizePixel = 0
+_42.Size = UDim2.new(0, 200, 0, 50)
+_42.Font = Enum.Font.GothamBold
+_42.Text = "Galactic Conquest"
+_42.TextColor3 = Color3.new(1, 1, 1)
+_42.TextSize = 20
+_42.TextWrapped = true
+
+_43.Name = "43"
+_43.Parent = ExecuteFrame
+_43.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_43.BorderSizePixel = 0
+_43.Size = UDim2.new(0, 200, 0, 50)
+_43.Font = Enum.Font.GothamBold
+_43.Text = "Gun Simulator"
+_43.TextColor3 = Color3.new(1, 1, 1)
+_43.TextSize = 20
+_43.TextWrapped = true
+
+_44.Name = "44"
+_44.Parent = ExecuteFrame
+_44.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_44.BorderSizePixel = 0
+_44.Size = UDim2.new(0, 200, 0, 50)
+_44.Font = Enum.Font.GothamBold
+_44.Text = "Heroes of Speed"
+_44.TextColor3 = Color3.new(1, 1, 1)
+_44.TextSize = 20
+_44.TextWrapped = true
+
+_45.Name = "45"
+_45.Parent = ExecuteFrame
+_45.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_45.BorderSizePixel = 0
+_45.Size = UDim2.new(0, 200, 0, 50)
+_45.Font = Enum.Font.GothamBold
+_45.Text = "Heroes Online"
+_45.TextColor3 = Color3.new(1, 1, 1)
+_45.TextSize = 20
+_45.TextWrapped = true
+
+_46.Name = "46"
+_46.Parent = ExecuteFrame
+_46.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_46.BorderSizePixel = 0
+_46.Size = UDim2.new(0, 200, 0, 50)
+_46.Font = Enum.Font.GothamBold
+_46.Text = "Horror Tycoon"
+_46.TextColor3 = Color3.new(1, 1, 1)
+_46.TextSize = 20
+_46.TextWrapped = true
+
+_47.Name = "47"
+_47.Parent = ExecuteFrame
+_47.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_47.BorderSizePixel = 0
+_47.Size = UDim2.new(0, 200, 0, 50)
+_47.Font = Enum.Font.GothamBold
+_47.Text = "Hotel Elephant"
+_47.TextColor3 = Color3.new(1, 1, 1)
+_47.TextSize = 20
+_47.TextWrapped = true
+
+_48.Name = "48"
+_48.Parent = ExecuteFrame
+_48.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_48.BorderSizePixel = 0
+_48.Size = UDim2.new(0, 200, 0, 50)
+_48.Font = Enum.Font.GothamBold
+_48.Text = "ILUM 2"
+_48.TextColor3 = Color3.new(1, 1, 1)
+_48.TextSize = 20
+_48.TextWrapped = true
+
+_49.Name = "49"
+_49.Parent = ExecuteFrame
+_49.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_49.BorderSizePixel = 0
+_49.Size = UDim2.new(0, 200, 0, 50)
+_49.Font = Enum.Font.GothamBold
+_49.Text = "Iron Man Simulator"
+_49.TextColor3 = Color3.new(1, 1, 1)
+_49.TextSize = 20
+_49.TextWrapped = true
+
+_5.Name = "5"
+_5.Parent = ExecuteFrame
+_5.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_5.BorderSizePixel = 0
+_5.Size = UDim2.new(0, 200, 0, 50)
+_5.Font = Enum.Font.GothamBold
+_5.Text = "Army Tycoon"
+_5.TextColor3 = Color3.new(1, 1, 1)
+_5.TextSize = 20
+_5.TextWrapped = true
+
+_50.Name = "50"
+_50.Parent = ExecuteFrame
+_50.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_50.BorderSizePixel = 0
+_50.Size = UDim2.new(0, 200, 0, 50)
+_50.Font = Enum.Font.GothamBold
+_50.Text = "Island Royale"
+_50.TextColor3 = Color3.new(1, 1, 1)
+_50.TextSize = 20
+_50.TextWrapped = true
+
+_51.Name = "51"
+_51.Parent = ExecuteFrame
+_51.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_51.BorderSizePixel = 0
+_51.Size = UDim2.new(0, 200, 0, 50)
+_51.Font = Enum.Font.GothamBold
+_51.Text = "Isle, 8"
+_51.TextColor3 = Color3.new(1, 1, 1)
+_51.TextSize = 20
+_51.TextWrapped = true
+
+_52.Name = "52"
+_52.Parent = ExecuteFrame
+_52.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_52.BorderSizePixel = 0
+_52.Size = UDim2.new(0, 200, 0, 50)
+_52.Font = Enum.Font.GothamBold
+_52.Text = "Jailbreak"
+_52.TextColor3 = Color3.new(1, 1, 1)
+_52.TextSize = 20
+_52.TextWrapped = true
+
+_53.Name = "53"
+_53.Parent = ExecuteFrame
+_53.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_53.BorderSizePixel = 0
+_53.Size = UDim2.new(0, 200, 0, 50)
+_53.Font = Enum.Font.GothamBold
+_53.Text = "K.O Simulator"
+_53.TextColor3 = Color3.new(1, 1, 1)
+_53.TextSize = 20
+_53.TextWrapped = true
+
+_54.Name = "54"
+_54.Parent = ExecuteFrame
+_54.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_54.BorderSizePixel = 0
+_54.Size = UDim2.new(0, 200, 0, 50)
+_54.Font = Enum.Font.GothamBold
+_54.Text = "Katana Simulator"
+_54.TextColor3 = Color3.new(1, 1, 1)
+_54.TextSize = 20
+_54.TextWrapped = true
+
+_55.Name = "55"
+_55.Parent = ExecuteFrame
+_55.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_55.BorderSizePixel = 0
+_55.Size = UDim2.new(0, 200, 0, 50)
+_55.Font = Enum.Font.GothamBold
+_55.Text = "Kick Off"
+_55.TextColor3 = Color3.new(1, 1, 1)
+_55.TextSize = 20
+_55.TextWrapped = true
+
+_56.Name = "56"
+_56.Parent = ExecuteFrame
+_56.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_56.BorderSizePixel = 0
+_56.Size = UDim2.new(0, 200, 0, 50)
+_56.Font = Enum.Font.GothamBold
+_56.Text = "King Piece"
+_56.TextColor3 = Color3.new(1, 1, 1)
+_56.TextSize = 20
+_56.TextWrapped = true
+
+_57.Name = "57"
+_57.Parent = ExecuteFrame
+_57.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_57.BorderSizePixel = 0
+_57.Size = UDim2.new(0, 200, 0, 50)
+_57.Font = Enum.Font.GothamBold
+_57.Text = "Knife Ability Test"
+_57.TextColor3 = Color3.new(1, 1, 1)
+_57.TextSize = 20
+_57.TextWrapped = true
+
+_58.Name = "58"
+_58.Parent = ExecuteFrame
+_58.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_58.BorderSizePixel = 0
+_58.Size = UDim2.new(0, 200, 0, 50)
+_58.Font = Enum.Font.GothamBold
+_58.Text = "Lawn Mowing Simulator"
+_58.TextColor3 = Color3.new(1, 1, 1)
+_58.TextSize = 20
+_58.TextWrapped = true
+
+_59.Name = "59"
+_59.Parent = ExecuteFrame
+_59.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_59.BorderSizePixel = 0
+_59.Size = UDim2.new(0, 200, 0, 50)
+_59.Font = Enum.Font.GothamBold
+_59.Text = "Legends of Speed"
+_59.TextColor3 = Color3.new(1, 1, 1)
+_59.TextSize = 20
+_59.TextWrapped = true
+
+_6.Name = "6"
+_6.Parent = ExecuteFrame
+_6.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_6.BorderSizePixel = 0
+_6.Size = UDim2.new(0, 200, 0, 50)
+_6.Font = Enum.Font.GothamBold
+_6.Text = "Arsenal"
+_6.TextColor3 = Color3.new(1, 1, 1)
+_6.TextSize = 20
+_6.TextWrapped = true
+
+_60.Name = "60"
+_60.Parent = ExecuteFrame
+_60.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_60.BorderSizePixel = 0
+_60.Size = UDim2.new(0, 200, 0, 50)
+_60.Font = Enum.Font.GothamBold
+_60.Text = "Lifting Simulator"
+_60.TextColor3 = Color3.new(1, 1, 1)
+_60.TextSize = 20
+_60.TextWrapped = true
+
+_61.Name = "61"
+_61.Parent = ExecuteFrame
+_61.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_61.BorderSizePixel = 0
+_61.Size = UDim2.new(0, 200, 0, 50)
+_61.Font = Enum.Font.GothamBold
+_61.Text = "Liftoff"
+_61.TextColor3 = Color3.new(1, 1, 1)
+_61.TextSize = 20
+_61.TextWrapped = true
+
+_62.Name = "62"
+_62.Parent = ExecuteFrame
+_62.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_62.BorderSizePixel = 0
+_62.Size = UDim2.new(0, 200, 0, 50)
+_62.Font = Enum.Font.GothamBold
+_62.Text = "LOL Tycoon"
+_62.TextColor3 = Color3.new(1, 1, 1)
+_62.TextSize = 20
+_62.TextWrapped = true
+
+_63.Name = "63"
+_63.Parent = ExecuteFrame
+_63.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_63.BorderSizePixel = 0
+_63.Size = UDim2.new(0, 200, 0, 50)
+_63.Font = Enum.Font.GothamBold
+_63.Text = "Lost"
+_63.TextColor3 = Color3.new(1, 1, 1)
+_63.TextSize = 20
+_63.TextWrapped = true
+
+_64.Name = "64"
+_64.Parent = ExecuteFrame
+_64.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_64.BorderSizePixel = 0
+_64.Size = UDim2.new(0, 200, 0, 50)
+_64.Font = Enum.Font.GothamBold
+_64.Text = "Lucky Block"
+_64.TextColor3 = Color3.new(1, 1, 1)
+_64.TextSize = 20
+_64.TextWrapped = true
+
+_65.Name = "65"
+_65.Parent = ExecuteFrame
+_65.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_65.BorderSizePixel = 0
+_65.Size = UDim2.new(0, 200, 0, 50)
+_65.Font = Enum.Font.GothamBold
+_65.Text = "Lumberjack Legends"
+_65.TextColor3 = Color3.new(1, 1, 1)
+_65.TextSize = 20
+_65.TextWrapped = true
+
+_66.Name = "66"
+_66.Parent = ExecuteFrame
+_66.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_66.BorderSizePixel = 0
+_66.Size = UDim2.new(0, 200, 0, 50)
+_66.Font = Enum.Font.GothamBold
+_66.Text = "Lumber Tycoon 2"
+_66.TextColor3 = Color3.new(1, 1, 1)
+_66.TextSize = 20
+_66.TextWrapped = true
+
+_67.Name = "67"
+_67.Parent = ExecuteFrame
+_67.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_67.BorderSizePixel = 0
+_67.Size = UDim2.new(0, 200, 0, 50)
+_67.Font = Enum.Font.GothamBold
+_67.Text = "Mad City"
+_67.TextColor3 = Color3.new(1, 1, 1)
+_67.TextSize = 20
+_67.TextWrapped = true
+
+_68.Name = "68"
+_68.Parent = ExecuteFrame
+_68.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_68.BorderSizePixel = 0
+_68.Size = UDim2.new(0, 200, 0, 50)
+_68.Font = Enum.Font.GothamBold
+_68.Text = "Mad Paintball"
+_68.TextColor3 = Color3.new(1, 1, 1)
+_68.TextSize = 20
+_68.TextWrapped = true
+
+_69.Name = "69"
+_69.Parent = ExecuteFrame
+_69.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_69.BorderSizePixel = 0
+_69.Size = UDim2.new(0, 200, 0, 50)
+_69.Font = Enum.Font.GothamBold
+_69.Text = "Magician Simulator"
+_69.TextColor3 = Color3.new(1, 1, 1)
+_69.TextSize = 20
+_69.TextWrapped = true
+
+_7.Name = "7"
+_7.Parent = ExecuteFrame
+_7.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_7.BorderSizePixel = 0
+_7.Size = UDim2.new(0, 200, 0, 50)
+_7.Font = Enum.Font.GothamBold
+_7.Text = "Assassin!"
+_7.TextColor3 = Color3.new(1, 1, 1)
+_7.TextSize = 20
+_7.TextWrapped = true
+
+_70.Name = "70"
+_70.Parent = ExecuteFrame
+_70.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_70.BorderSizePixel = 0
+_70.Size = UDim2.new(0, 200, 0, 50)
+_70.Font = Enum.Font.GothamBold
+_70.Text = "Magic Simulator"
+_70.TextColor3 = Color3.new(1, 1, 1)
+_70.TextSize = 20
+_70.TextWrapped = true
+
+_71.Name = "71"
+_71.Parent = ExecuteFrame
+_71.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_71.BorderSizePixel = 0
+_71.Size = UDim2.new(0, 200, 0, 50)
+_71.Font = Enum.Font.GothamBold
+_71.Text = "Magnet Simulator"
+_71.TextColor3 = Color3.new(1, 1, 1)
+_71.TextSize = 20
+_71.TextWrapped = true
+
+_72.Name = "72"
+_72.Parent = ExecuteFrame
+_72.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_72.BorderSizePixel = 0
+_72.Size = UDim2.new(0, 200, 0, 50)
+_72.Font = Enum.Font.GothamBold
+_72.Text = "Make A Cake"
+_72.TextColor3 = Color3.new(1, 1, 1)
+_72.TextSize = 20
+_72.TextWrapped = true
+
+_73.Name = "73"
+_73.Parent = ExecuteFrame
+_73.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_73.BorderSizePixel = 0
+_73.Size = UDim2.new(0, 200, 0, 50)
+_73.Font = Enum.Font.GothamBold
+_73.Text = "Meepcity"
+_73.TextColor3 = Color3.new(1, 1, 1)
+_73.TextSize = 20
+_73.TextWrapped = true
+
+_74.Name = "74"
+_74.Parent = ExecuteFrame
+_74.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_74.BorderSizePixel = 0
+_74.Size = UDim2.new(0, 200, 0, 50)
+_74.Font = Enum.Font.GothamBold
+_74.Text = "MineVerse"
+_74.TextColor3 = Color3.new(1, 1, 1)
+_74.TextSize = 20
+_74.TextWrapped = true
+
+_75.Name = "75"
+_75.Parent = ExecuteFrame
+_75.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_75.BorderSizePixel = 0
+_75.Size = UDim2.new(0, 200, 0, 50)
+_75.Font = Enum.Font.GothamBold
+_75.Text = "Mining Simulator"
+_75.TextColor3 = Color3.new(1, 1, 1)
+_75.TextSize = 20
+_75.TextWrapped = true
+
+_76.Name = "76"
+_76.Parent = ExecuteFrame
+_76.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_76.BorderSizePixel = 0
+_76.Size = UDim2.new(0, 200, 0, 50)
+_76.Font = Enum.Font.GothamBold
+_76.Text = "Monster Simulator"
+_76.TextColor3 = Color3.new(1, 1, 1)
+_76.TextSize = 20
+_76.TextWrapped = true
+
+_77.Name = "77"
+_77.Parent = ExecuteFrame
+_77.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_77.BorderSizePixel = 0
+_77.Size = UDim2.new(0, 200, 0, 50)
+_77.Font = Enum.Font.GothamBold
+_77.Text = "Murder Mystery 2"
+_77.TextColor3 = Color3.new(1, 1, 1)
+_77.TextSize = 20
+_77.TextWrapped = true
+
+_78.Name = "78"
+_78.Parent = ExecuteFrame
+_78.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_78.BorderSizePixel = 0
+_78.Size = UDim2.new(0, 200, 0, 50)
+_78.Font = Enum.Font.GothamBold
+_78.Text = "Murder Mystery 3"
+_78.TextColor3 = Color3.new(1, 1, 1)
+_78.TextSize = 20
+_78.TextWrapped = true
+
+_79.Name = "79"
+_79.Parent = ExecuteFrame
+_79.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_79.BorderSizePixel = 0
+_79.Size = UDim2.new(0, 200, 0, 50)
+_79.Font = Enum.Font.GothamBold
+_79.Text = "Naruto Tycoon"
+_79.TextColor3 = Color3.new(1, 1, 1)
+_79.TextSize = 20
+_79.TextWrapped = true
+
+_8.Name = "8"
+_8.Parent = ExecuteFrame
+_8.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_8.BorderSizePixel = 0
+_8.Size = UDim2.new(0, 200, 0, 50)
+_8.Font = Enum.Font.GothamBold
+_8.Text = "Balloon Simulator 2"
+_8.TextColor3 = Color3.new(1, 1, 1)
+_8.TextSize = 20
+_8.TextWrapped = true
+
+_80.Name = "80"
+_80.Parent = ExecuteFrame
+_80.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_80.BorderSizePixel = 0
+_80.Size = UDim2.new(0, 200, 0, 50)
+_80.Font = Enum.Font.GothamBold
+_80.Text = "Natural Disaster Survival"
+_80.TextColor3 = Color3.new(1, 1, 1)
+_80.TextSize = 20
+_80.TextWrapped = true
+
+_81.Name = "81"
+_81.Parent = ExecuteFrame
+_81.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_81.BorderSizePixel = 0
+_81.Size = UDim2.new(0, 200, 0, 50)
+_81.Font = Enum.Font.GothamBold
+_81.Text = "Ninja Legends"
+_81.TextColor3 = Color3.new(1, 1, 1)
+_81.TextSize = 20
+_81.TextWrapped = true
+
+_82.Name = "82"
+_82.Parent = ExecuteFrame
+_82.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_82.BorderSizePixel = 0
+_82.Size = UDim2.new(0, 200, 0, 50)
+_82.Font = Enum.Font.GothamBold
+_82.Text = "Ninja Tycoon"
+_82.TextColor3 = Color3.new(1, 1, 1)
+_82.TextSize = 20
+_82.TextWrapped = true
+
+_83.Name = "83"
+_83.Parent = ExecuteFrame
+_83.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_83.BorderSizePixel = 0
+_83.Size = UDim2.new(0, 200, 0, 50)
+_83.Font = Enum.Font.GothamBold
+_83.Text = "Notoriety"
+_83.TextColor3 = Color3.new(1, 1, 1)
+_83.TextSize = 20
+_83.TextWrapped = true
+
+_84.Name = "84"
+_84.Parent = ExecuteFrame
+_84.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_84.BorderSizePixel = 0
+_84.Size = UDim2.new(0, 200, 0, 50)
+_84.Font = Enum.Font.GothamBold
+_84.Text = "One Piece Ultimate"
+_84.TextColor3 = Color3.new(1, 1, 1)
+_84.TextSize = 20
+_84.TextWrapped = true
+
+_85.Name = "85"
+_85.Parent = ExecuteFrame
+_85.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_85.BorderSizePixel = 0
+_85.Size = UDim2.new(0, 200, 0, 50)
+_85.Font = Enum.Font.GothamBold
+_85.Text = "Oretary"
+_85.TextColor3 = Color3.new(1, 1, 1)
+_85.TextSize = 20
+_85.TextWrapped = true
+
+_86.Name = "86"
+_86.Parent = ExecuteFrame
+_86.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_86.BorderSizePixel = 0
+_86.Size = UDim2.new(0, 200, 0, 50)
+_86.Font = Enum.Font.GothamBold
+_86.Text = "Grandma's House Obby"
+_86.TextColor3 = Color3.new(1, 1, 1)
+_86.TextSize = 20
+_86.TextWrapped = true
+
+_87.Name = "87"
+_87.Parent = ExecuteFrame
+_87.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_87.BorderSizePixel = 0
+_87.Size = UDim2.new(0, 200, 0, 50)
+_87.Font = Enum.Font.GothamBold
+_87.Text = "Gift Simulator"
+_87.TextColor3 = Color3.new(1, 1, 1)
+_87.TextSize = 20
+_87.TextWrapped = true
+
+_88.Name = "88"
+_88.Parent = ExecuteFrame
+_88.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_88.BorderSizePixel = 0
+_88.Size = UDim2.new(0, 200, 0, 50)
+_88.Font = Enum.Font.GothamBold
+_88.Text = "Giant Survival"
+_88.TextColor3 = Color3.new(1, 1, 1)
+_88.TextSize = 20
+_88.TextWrapped = true
+
+_89.Name = "89"
+_89.Parent = ExecuteFrame
+_89.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_89.BorderSizePixel = 0
+_89.Size = UDim2.new(0, 200, 0, 50)
+_89.Font = Enum.Font.GothamBold
+_89.Text = "Gas Station Simulator"
+_89.TextColor3 = Color3.new(1, 1, 1)
+_89.TextSize = 20
+_89.TextWrapped = true
+
+_9.Name = "9"
+_9.Parent = ExecuteFrame
+_9.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_9.BorderSizePixel = 0
+_9.Size = UDim2.new(0, 200, 0, 50)
+_9.Font = Enum.Font.GothamBold
+_9.Text = "Batting Champions"
+_9.TextColor3 = Color3.new(1, 1, 1)
+_9.TextSize = 20
+_9.TextWrapped = true
+
+_90.Name = "90"
+_90.Parent = ExecuteFrame
+_90.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_90.BorderSizePixel = 0
+_90.Size = UDim2.new(0, 200, 0, 50)
+_90.Font = Enum.Font.GothamBold
+_90.Text = "Flee The Facility"
+_90.TextColor3 = Color3.new(1, 1, 1)
+_90.TextSize = 20
+_90.TextWrapped = true
+
+_91.Name = "91"
+_91.Parent = ExecuteFrame
+_91.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_91.BorderSizePixel = 0
+_91.Size = UDim2.new(0, 200, 0, 50)
+_91.Font = Enum.Font.GothamBold
+_91.Text = "Flamethrower Simulator"
+_91.TextColor3 = Color3.new(1, 1, 1)
+_91.TextSize = 20
+_91.TextWrapped = true
+
+_92.Name = "92"
+_92.Parent = ExecuteFrame
+_92.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_92.BorderSizePixel = 0
+_92.Size = UDim2.new(0, 200, 0, 50)
+_92.Font = Enum.Font.GothamBold
+_92.Text = "Fitness Simulator"
+_92.TextColor3 = Color3.new(1, 1, 1)
+_92.TextSize = 20
+_92.TextWrapped = true
+
+_93.Name = "93"
+_93.Parent = ExecuteFrame
+_93.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_93.BorderSizePixel = 0
+_93.Size = UDim2.new(0, 200, 0, 50)
+_93.Font = Enum.Font.GothamBold
+_93.Text = "Fishing Simulator"
+_93.TextColor3 = Color3.new(1, 1, 1)
+_93.TextSize = 20
+_93.TextWrapped = true
+
+_94.Name = "94"
+_94.Parent = ExecuteFrame
+_94.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_94.BorderSizePixel = 0
+_94.Size = UDim2.new(0, 200, 0, 50)
+_94.Font = Enum.Font.GothamBold
+_94.Text = "Fighting Simulator"
+_94.TextColor3 = Color3.new(1, 1, 1)
+_94.TextSize = 20
+_94.TextWrapped = true
+
+_95.Name = "95"
+_95.Parent = ExecuteFrame
+_95.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_95.BorderSizePixel = 0
+_95.Size = UDim2.new(0, 200, 0, 50)
+_95.Font = Enum.Font.GothamBold
+_95.Text = "Dr. Seuss Simulator"
+_95.TextColor3 = Color3.new(1, 1, 1)
+_95.TextSize = 20
+_95.TextWrapped = true
+
+_96.Name = "96"
+_96.Parent = ExecuteFrame
+_96.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_96.BorderSizePixel = 0
+_96.Size = UDim2.new(0, 200, 0, 50)
+_96.Font = Enum.Font.GothamBold
+_96.Text = "Donut Story Tycoon"
+_96.TextColor3 = Color3.new(1, 1, 1)
+_96.TextSize = 20
+_96.TextWrapped = true
+
+_97.Name = "97"
+_97.Parent = ExecuteFrame
+_97.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_97.BorderSizePixel = 0
+_97.Size = UDim2.new(0, 200, 0, 50)
+_97.Font = Enum.Font.GothamBold
+_97.Text = "Demon Slayer"
+_97.TextColor3 = Color3.new(1, 1, 1)
+_97.TextSize = 20
+_97.TextWrapped = true
+
+_98.Name = "98"
+_98.Parent = ExecuteFrame
+_98.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_98.BorderSizePixel = 0
+_98.Size = UDim2.new(0, 200, 0, 50)
+_98.Font = Enum.Font.GothamBold
+_98.Text = "D-DAY"
+_98.TextColor3 = Color3.new(1, 1, 1)
+_98.TextSize = 20
+_98.TextWrapped = true
+
+IntroFrame.Name = "IntroFrame"
+IntroFrame.Parent = SpectrumHub
+IntroFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+IntroFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+IntroFrame.BackgroundTransparency = 1
+IntroFrame.ClipsDescendants = true
+IntroFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+IntroFrame.Image = "rbxassetid://3570695787"
+IntroFrame.ImageColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+IntroFrame.ScaleType = Enum.ScaleType.Slice
+IntroFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+
+IntroLogo.Name = "IntroLogo"
+IntroLogo.Parent = IntroFrame
+IntroLogo.BackgroundColor3 = Color3.new(1, 1, 1)
+IntroLogo.BackgroundTransparency = 1
+IntroLogo.BorderSizePixel = 0
+IntroLogo.Position = UDim2.new(0, 0, 1, 0)
+IntroLogo.Size = UDim2.new(1, 0, 1, 0)
+IntroLogo.Font = Enum.Font.GothamBold
+IntroLogo.Text = "S"
+IntroLogo.TextColor3 = Color3.new(1, 1, 1)
+IntroLogo.TextSize = 100
+IntroLogo.TextWrapped = true
+
+local function WQIGY_fake_script() -- SpectrumHub.NavigationFunction 
+	local script = Instance.new('Script', SpectrumHub)
+
+	wait(2)
+	script.Parent.IntroFrame:TweenSize(UDim2.new(0,150,0,150), "Out", "Quad", 0.5, true)
+	wait(0.5)
+	script.Parent.IntroFrame.IntroLogo:TweenPosition(UDim2.new(0,0,0,0), "Out", "Quad", 0.5, true)
+	wait(1)
+	script.Parent.IntroFrame:TweenSize(UDim2.new(0,0,0,0), "Out", "Quad", 0.5, true)
+	wait(1)
+	script.Parent.HubFrame:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out", "Quad", 0.5, true)
+	
+	
+	script.Parent.HubFrame.TopbarFrame.Exit.MouseButton1Click:connect(function()
+		script.Parent.HubFrame:TweenSize(UDim2.new(0,0,0,0), "Out", "Quad", 0.5, true)
+		wait(0.5)
+		script.Parent.Parent.CocoHub:remove()
+	end)
+	
+	script.Parent.HubFrame.TopbarFrame.Minimize.MouseButton1Click:connect(function()
+		script.Parent.HubFrame:TweenPosition(UDim2.new(0.5,0,2,0), "Out", "Quad", 0.5, true)
+		wait(0.5)
+		script.Parent.ButtonFrame:TweenPosition(UDim2.new(1,-50,1,-50), "Out", "Quad", 0.5, true)
+	end)
+	
+	script.Parent.ButtonFrame.OpenButton.MouseButton1Click:connect(function()
+		script.Parent.ButtonFrame:TweenPosition(UDim2.new(1,-50,2,-50), "Out", "Quad", 0.5, true)
+		wait(0.5)
+		script.Parent.HubFrame:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out", "Quad", 0.5, true)
+	end)
+end
+coroutine.wrap(WQIGY_fake_script)()
+local function MZNMR_fake_script() -- _1.Script 
+	local script = Instance.new('Script', _1)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/rfJTK1rc"))();
+	end)
+end
+coroutine.wrap(MZNMR_fake_script)()
+local function MIFSCY_fake_script() -- _10.Script 
+	local script = Instance.new('Script', _10)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/8Kmpe1xr"))();
+	end)
+end
+coroutine.wrap(MIFSCY_fake_script)()
+local function QOWHQBR_fake_script() -- _100.Script 
+	local script = Instance.new('Script', _100)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/QhtJiZLi"))();
+	end)
+end
+coroutine.wrap(QOWHQBR_fake_script)()
+local function MUGZF_fake_script() -- _101.Script 
+	local script = Instance.new('Script', _101)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/fs2qt/raw"))();
+	end)
+end
+coroutine.wrap(MUGZF_fake_script)()
+local function YIZKQ_fake_script() -- _102.Script 
+	local script = Instance.new('Script', _102)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/WL5DjiCm"))();
+	end)
+end
+coroutine.wrap(YIZKQ_fake_script)()
+local function WYLGD_fake_script() -- _103.Script 
+	local script = Instance.new('Script', _103)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/fCzJL5xQ"))();
+	end)
+end
+coroutine.wrap(WYLGD_fake_script)()
+local function JXQFYD_fake_script() -- _104.Script 
+	local script = Instance.new('Script', _104)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/yJ3Vcb1s"))();
+	end)
+end
+coroutine.wrap(JXQFYD_fake_script)()
+local function ZIHRFWA_fake_script() -- _105.Script 
+	local script = Instance.new('Script', _105)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+	end)
+end
+coroutine.wrap(ZIHRFWA_fake_script)()
+local function ESVOTS_fake_script() -- _106.Script 
+	local script = Instance.new('Script', _106)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/zPF5ijUU"))();
+	end)
+end
+coroutine.wrap(ESVOTS_fake_script)()
+local function CKMXCZN_fake_script() -- _107.Script 
+	local script = Instance.new('Script', _107)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/jwM4QgHr"))();
+	end)
+end
+coroutine.wrap(CKMXCZN_fake_script)()
+local function MBDBLZ_fake_script() -- _108.Script 
+	local script = Instance.new('Script', _108)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/qMcbuEuJ"))();
+	end)
+end
+coroutine.wrap(MBDBLZ_fake_script)()
+local function TUDSKL_fake_script() -- _109.Script 
+	local script = Instance.new('Script', _109)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/PwzTNbsR"))();
+	end)
+end
+coroutine.wrap(TUDSKL_fake_script)()
+local function APFCAIJ_fake_script() -- _11.Script 
+	local script = Instance.new('Script', _11)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/3qs77TTk"))();
+	end)
+end
+coroutine.wrap(APFCAIJ_fake_script)()
+local function TVJDZ_fake_script() -- _110.Script 
+	local script = Instance.new('Script', _110)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/jv5tV9Ff"))();
+	end)
+end
+coroutine.wrap(TVJDZ_fake_script)()
+local function RSMWED_fake_script() -- _111.Script 
+	local script = Instance.new('Script', _111)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/cnLABpj3"))();
+	end)
+end
+coroutine.wrap(RSMWED_fake_script)()
+local function BETXKY_fake_script() -- _112.Script 
+	local script = Instance.new('Script', _112)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Qv86dKq8"))();
+	end)
+end
+coroutine.wrap(BETXKY_fake_script)()
+local function WBAGUVB_fake_script() -- _113.Script 
+	local script = Instance.new('Script', _113)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/f1whedKk"))();
+	end)
+end
+coroutine.wrap(WBAGUVB_fake_script)()
+local function XMZKNC_fake_script() -- _114.Script 
+	local script = Instance.new('Script', _114)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YkNcYx4Q"))();
+	end)
+end
+coroutine.wrap(XMZKNC_fake_script)()
+local function RJGHN_fake_script() -- _115.Script 
+	local script = Instance.new('Script', _115)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/nzvfUuic"))();
+	end)
+end
+coroutine.wrap(RJGHN_fake_script)()
+local function HREOH_fake_script() -- _116.Script 
+	local script = Instance.new('Script', _116)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/paG30Gr8"))();
+	end)
+end
+coroutine.wrap(HREOH_fake_script)()
+local function USDDX_fake_script() -- _117.Script 
+	local script = Instance.new('Script', _117)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uiCgAb9S"))();
+	end)
+end
+coroutine.wrap(USDDX_fake_script)()
+local function HHTLIZF_fake_script() -- _118.Script 
+	local script = Instance.new('Script', _118)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TmhzPEef"))();
+	end)
+end
+coroutine.wrap(HHTLIZF_fake_script)()
+local function RGPB_fake_script() -- _119.Script 
+	local script = Instance.new('Script', _119)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/4jHBeTtf"))();
+	end)
+end
+coroutine.wrap(RGPB_fake_script)()
+local function IVKA_fake_script() -- _12.Script 
+	local script = Instance.new('Script', _12)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YgwvjUt0"))();
+	end)
+end
+coroutine.wrap(IVKA_fake_script)()
+local function XHDUDON_fake_script() -- _120.Script 
+	local script = Instance.new('Script', _120)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg"))();
+	end)
+end
+coroutine.wrap(XHDUDON_fake_script)()
+local function SCOIN_fake_script() -- _121.Script 
+	local script = Instance.new('Script', _121)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tYLm4Fcu"))();
+	end)
+end
+coroutine.wrap(SCOIN_fake_script)()
+local function SPDUOB_fake_script() -- _122.Script 
+	local script = Instance.new('Script', _122)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZTcM4ZRE"))();
+	end)
+end
+coroutine.wrap(SPDUOB_fake_script)()
+local function SDXCC_fake_script() -- _123.Script 
+	local script = Instance.new('Script', _123)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/kFwWbXUt"))();
+	end)
+end
+coroutine.wrap(SDXCC_fake_script)()
+local function HEXALV_fake_script() -- _124.Script 
+	local script = Instance.new('Script', _124)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZNCeSaCd"))();
+	end)
+end
+coroutine.wrap(HEXALV_fake_script)()
+local function LMBT_fake_script() -- _125.Script 
+	local script = Instance.new('Script', _125)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/bQRxQiBy"))();
+	end)
+end
+coroutine.wrap(LMBT_fake_script)()
+local function NJIQA_fake_script() -- _126.Script 
+	local script = Instance.new('Script', _126)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/F8Wr9C4t"))();
+	end)
+end
+coroutine.wrap(NJIQA_fake_script)()
+local function RELAZ_fake_script() -- _127.Script 
+	local script = Instance.new('Script', _127)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xR5LdmbX"))();
+	end)
+end
+coroutine.wrap(RELAZ_fake_script)()
+local function ZPPWJ_fake_script() -- _128.Script 
+	local script = Instance.new('Script', _128)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/oce55/raw"))();
+	end)
+end
+coroutine.wrap(ZPPWJ_fake_script)()
+local function AUAFF_fake_script() -- _129.Script 
+	local script = Instance.new('Script', _129)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/LXWxj5Ld"))();
+	end)
+end
+coroutine.wrap(AUAFF_fake_script)()
+local function CPXG_fake_script() -- _13.Script 
+	local script = Instance.new('Script', _13)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/WC89Ej1k"))();
+	end)
+end
+coroutine.wrap(CPXG_fake_script)()
+local function HSHMSN_fake_script() -- _130.Script 
+	local script = Instance.new('Script', _130)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/VNQy7fg3"))();
+	end)
+end
+coroutine.wrap(HSHMSN_fake_script)()
+local function GYIRCN_fake_script() -- _131.Script 
+	local script = Instance.new('Script', _131)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/pGLRNA33"))();
+	end)
+end
+coroutine.wrap(GYIRCN_fake_script)()
+local function JFXN_fake_script() -- _132.Script 
+	local script = Instance.new('Script', _132)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/61vdJN2e"))();
+	end)
+end
+coroutine.wrap(JFXN_fake_script)()
+local function ZMOK_fake_script() -- _133.Script 
+	local script = Instance.new('Script', _133)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/se1NnxCg"))();
+	end)
+end
+coroutine.wrap(ZMOK_fake_script)()
+local function JMYB_fake_script() -- _134.Script 
+	local script = Instance.new('Script', _134)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/jbpeBGZD"))();
+	end)
+end
+coroutine.wrap(JMYB_fake_script)()
+local function TOGIUWJ_fake_script() -- _135.Script 
+	local script = Instance.new('Script', _135)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ki1dmHd8"))();
+	end)
+end
+coroutine.wrap(TOGIUWJ_fake_script)()
+local function LBRKUIZ_fake_script() -- _136.Script 
+	local script = Instance.new('Script', _136)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/mxVSVCLE"))();
+	end)
+end
+coroutine.wrap(LBRKUIZ_fake_script)()
+local function BGXRZLE_fake_script() -- _137.Script 
+	local script = Instance.new('Script', _137)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/5WxCNcpU"))();
+	end)
+end
+coroutine.wrap(BGXRZLE_fake_script)()
+local function TLPNPQ_fake_script() -- _138.Script 
+	local script = Instance.new('Script', _138)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FtFCzQTw"))();
+	end)
+end
+coroutine.wrap(TLPNPQ_fake_script)()
+local function NSXX_fake_script() -- _139.Script 
+	local script = Instance.new('Script', _139)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Xrqjaz3c"))();
+	end)
+end
+coroutine.wrap(NSXX_fake_script)()
+local function OUSDEDP_fake_script() -- _14.Script 
+	local script = Instance.new('Script', _14)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/HcCX6Cp6"))();
+	end)
+end
+coroutine.wrap(OUSDEDP_fake_script)()
+local function QMAIC_fake_script() -- _140.Script 
+	local script = Instance.new('Script', _140)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Ptrnnf3D"))();
+	end)
+end
+coroutine.wrap(QMAIC_fake_script)()
+local function ZCNT_fake_script() -- _141.Script 
+	local script = Instance.new('Script', _141)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6sA8kvmm"))();
+	end)
+end
+coroutine.wrap(ZCNT_fake_script)()
+local function NDLAHXB_fake_script() -- _142.Script 
+	local script = Instance.new('Script', _142)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/DnkwNcgs"))();
+	end)
+end
+coroutine.wrap(NDLAHXB_fake_script)()
+local function VEERRHS_fake_script() -- _143.Script 
+	local script = Instance.new('Script', _143)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/zPF5ijUU"))();
+	end)
+end
+coroutine.wrap(VEERRHS_fake_script)()
+local function ZPFRYQZ_fake_script() -- _144.Script 
+	local script = Instance.new('Script', _144)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/N4Lwq6wX"))();
+	end)
+end
+coroutine.wrap(ZPFRYQZ_fake_script)()
+local function YXEBOI_fake_script() -- _145.Script 
+	local script = Instance.new('Script', _145)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/154RJ1mv"))();
+	end)
+end
+coroutine.wrap(YXEBOI_fake_script)()
+local function PNCR_fake_script() -- _146.Script 
+	local script = Instance.new('Script', _146)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/0G2JeB2p"))();
+	end)
+end
+coroutine.wrap(PNCR_fake_script)()
+local function HKXZ_fake_script() -- _147.Script 
+	local script = Instance.new('Script', _147)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/jg7fkmwa"))();
+	end)
+end
+coroutine.wrap(HKXZ_fake_script)()
+local function LQGV_fake_script() -- _148.Script 
+	local script = Instance.new('Script', _148)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/nev2j/raw"))();
+	end)
+end
+coroutine.wrap(LQGV_fake_script)()
+local function FRXPP_fake_script() -- _149.Script 
+	local script = Instance.new('Script', _149)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/gvf4h/raw"))();
+	end)
+end
+coroutine.wrap(FRXPP_fake_script)()
+local function VYAWOF_fake_script() -- _15.Script 
+	local script = Instance.new('Script', _15)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/cv4yFfQU"))();
+	end)
+end
+coroutine.wrap(VYAWOF_fake_script)()
+local function OUSROYT_fake_script() -- _150.Script 
+	local script = Instance.new('Script', _150)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/sAc9Zt0j"))();
+	end)
+end
+coroutine.wrap(OUSROYT_fake_script)()
+local function KEKKGCA_fake_script() -- _151.Script 
+	local script = Instance.new('Script', _151)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/q817HYb9"))();
+	end)
+end
+coroutine.wrap(KEKKGCA_fake_script)()
+local function WSWSTAS_fake_script() -- _152.Script 
+	local script = Instance.new('Script', _152)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/nuipWGnf"))();
+	end)
+end
+coroutine.wrap(WSWSTAS_fake_script)()
+local function SMITK_fake_script() -- _153.Script 
+	local script = Instance.new('Script', _153)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/hb1aWL6b"))();
+	end)
+end
+coroutine.wrap(SMITK_fake_script)()
+local function KJGJCXL_fake_script() -- _154.Script 
+	local script = Instance.new('Script', _154)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/LEqzpDW0"))();
+	end)
+end
+coroutine.wrap(KJGJCXL_fake_script)()
+local function YGUFVWX_fake_script() -- _155.Script 
+	local script = Instance.new('Script', _155)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ju2teccL"))();
+	end)
+end
+coroutine.wrap(YGUFVWX_fake_script)()
+local function YKUOV_fake_script() -- _99.Script 
+	local script = Instance.new('Script', _99)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/QhtJiZLi"))();
+	end)
+end
+coroutine.wrap(YKUOV_fake_script)()
+local function UVAOEYG_fake_script() -- _16.Script 
+	local script = Instance.new('Script', _16)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/AYjCdjgk"))();
+	end)
+end
+coroutine.wrap(UVAOEYG_fake_script)()
+local function PKIXBD_fake_script() -- _17.Script 
+	local script = Instance.new('Script', _17)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/yigKxDrK"))();
+	end)
+end
+coroutine.wrap(PKIXBD_fake_script)()
+local function UWUZR_fake_script() -- _18.Script 
+	local script = Instance.new('Script', _18)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://hastebin.com/raw/ekidiqohew"))();
+	end)
+end
+coroutine.wrap(UWUZR_fake_script)()
+local function HQVGUD_fake_script() -- _19.Script 
+	local script = Instance.new('Script', _19)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Ba9PnUXA"))();
+	end)
+end
+coroutine.wrap(HQVGUD_fake_script)()
+local function YDCGTOG_fake_script() -- _2.Script 
+	local script = Instance.new('Script', _2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://paste.ee/r/zuktL/0"))();
+	end)
+end
+coroutine.wrap(YDCGTOG_fake_script)()
+local function QOPS_fake_script() -- _20.Script 
+	local script = Instance.new('Script', _20)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Z33h2izB"))();
+	end)
+end
+coroutine.wrap(QOPS_fake_script)()
+local function TEBHUM_fake_script() -- _21.Script 
+	local script = Instance.new('Script', _21)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NGHDDDX/ScriptHubScripts/master/BoysAndGirlsHangoutScript"))();
+	end)
+end
+coroutine.wrap(TEBHUM_fake_script)()
+local function TUJT_fake_script() -- _22.Script 
+	local script = Instance.new('Script', _22)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MLPypHYv"))();
+	end)
+end
+coroutine.wrap(TUJT_fake_script)()
+local function CMQLP_fake_script() -- _23.Script 
+	local script = Instance.new('Script', _23)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/4XSEyeag"))();
+	end)
+end
+coroutine.wrap(CMQLP_fake_script)()
+local function UXBROL_fake_script() -- _24.Script 
+	local script = Instance.new('Script', _24)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uhDvitAW"))();
+	end)
+end
+coroutine.wrap(UXBROL_fake_script)()
+local function BISVING_fake_script() -- _25.Script 
+	local script = Instance.new('Script', _25)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/hc3d2CAH"))();
+	end)
+end
+coroutine.wrap(BISVING_fake_script)()
+local function ZBKH_fake_script() -- _26.Script 
+	local script = Instance.new('Script', _26)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YBj7Uypt"))();
+	end)
+end
+coroutine.wrap(ZBKH_fake_script)()
+local function OOIBI_fake_script() -- _27.Script 
+	local script = Instance.new('Script', _27)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/AcHFc885"))();
+	end)
+end
+coroutine.wrap(OOIBI_fake_script)()
+local function LQSTTE_fake_script() -- _28.Script 
+	local script = Instance.new('Script', _28)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GZWNs9uv"))();
+	end)
+end
+coroutine.wrap(LQSTTE_fake_script)()
+local function IUDUK_fake_script() -- _29.Script 
+	local script = Instance.new('Script', _29)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/URDBqiUw"))();
+	end)
+end
+coroutine.wrap(IUDUK_fake_script)()
+local function ROBZNDO_fake_script() -- _3.Script 
+	local script = Instance.new('Script', _3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/wjSZBDSF"))();
+	end)
+end
+coroutine.wrap(ROBZNDO_fake_script)()
+local function DIWDQKK_fake_script() -- _30.Script 
+	local script = Instance.new('Script', _30)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6qZutRWW"))();
+	end)
+end
+coroutine.wrap(DIWDQKK_fake_script)()
+local function BATVPJ_fake_script() -- _31.Script 
+	local script = Instance.new('Script', _31)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/3rk2femQ"))();
+	end)
+end
+coroutine.wrap(BATVPJ_fake_script)()
+local function KDUJ_fake_script() -- _32.Script 
+	local script = Instance.new('Script', _32)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Tj7R9HnU"))();
+	end)
+end
+coroutine.wrap(KDUJ_fake_script)()
+local function XVVAOW_fake_script() -- _33.Script 
+	local script = Instance.new('Script', _33)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/F5vSFHZt"))();
+	end)
+end
+coroutine.wrap(XVVAOW_fake_script)()
+local function FFAPLWR_fake_script() -- _34.Script 
+	local script = Instance.new('Script', _34)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tSLrVYpx"))();
+	end)
+end
+coroutine.wrap(FFAPLWR_fake_script)()
+local function DUPE_fake_script() -- _35.Script 
+	local script = Instance.new('Script', _35)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/PqYFuNAA"))();
+	end)
+end
+coroutine.wrap(DUPE_fake_script)()
+local function YOUIBJ_fake_script() -- _36.Script 
+	local script = Instance.new('Script', _36)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/8XdJC2iX"))();
+	end)
+end
+coroutine.wrap(YOUIBJ_fake_script)()
+local function KRMDZ_fake_script() -- _37.Script 
+	local script = Instance.new('Script', _37)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Ti1r7tWn"))();
+	end)
+end
+coroutine.wrap(KRMDZ_fake_script)()
+local function SULI_fake_script() -- _38.Script 
+	local script = Instance.new('Script', _38)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FuDnSAvn"))();
+	end)
+end
+coroutine.wrap(SULI_fake_script)()
+local function RVIWH_fake_script() -- _39.Script 
+	local script = Instance.new('Script', _39)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/hz4nAqXT"))();
+	end)
+end
+coroutine.wrap(RVIWH_fake_script)()
+local function SYJEQ_fake_script() -- _4.Script 
+	local script = Instance.new('Script', _4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Hxwnxqbh"))();
+	end)
+end
+coroutine.wrap(SYJEQ_fake_script)()
+local function PJLWLI_fake_script() -- _40.Script 
+	local script = Instance.new('Script', _40)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/vnNahdQh"))();
+	end)
+end
+coroutine.wrap(PJLWLI_fake_script)()
+local function WGXQRTC_fake_script() -- _41.Script 
+	local script = Instance.new('Script', _41)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/hvUWQ4N9"))();
+	end)
+end
+coroutine.wrap(WGXQRTC_fake_script)()
+local function SZVZYZO_fake_script() -- _42.Script 
+	local script = Instance.new('Script', _42)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YBZZU8y0"))();
+	end)
+end
+coroutine.wrap(SZVZYZO_fake_script)()
+local function ZVZU_fake_script() -- _43.Script 
+	local script = Instance.new('Script', _43)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/62GBpaJN"))();
+	end)
+end
+coroutine.wrap(ZVZU_fake_script)()
+local function JGFHKLO_fake_script() -- _44.Script 
+	local script = Instance.new('Script', _44)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YqHXkVh4"))();
+	end)
+end
+coroutine.wrap(JGFHKLO_fake_script)()
+local function NSKA_fake_script() -- _45.Script 
+	local script = Instance.new('Script', _45)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/4yQ4f1Zm"))();
+	end)
+end
+coroutine.wrap(NSKA_fake_script)()
+local function IGECDN_fake_script() -- _46.Script 
+	local script = Instance.new('Script', _46)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/uUZAgkAr"))();
+	end)
+end
+coroutine.wrap(IGECDN_fake_script)()
+local function AWNJDMO_fake_script() -- _47.Script 
+	local script = Instance.new('Script', _47)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/2XxY4tLJ"))();
+	end)
+end
+coroutine.wrap(AWNJDMO_fake_script)()
+local function AFWLYBX_fake_script() -- _48.Script 
+	local script = Instance.new('Script', _48)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/QUv5t5H1"))();
+	end)
+end
+coroutine.wrap(AFWLYBX_fake_script)()
+local function TFCFSR_fake_script() -- _49.Script 
+	local script = Instance.new('Script', _49)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/1xJQ8T5b"))();
+	end)
+end
+coroutine.wrap(TFCFSR_fake_script)()
+local function FBCKX_fake_script() -- _5.Script 
+	local script = Instance.new('Script', _5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MYXEidCP"))();
+	end)
+end
+coroutine.wrap(FBCKX_fake_script)()
+local function LRIW_fake_script() -- _50.Script 
+	local script = Instance.new('Script', _50)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/cPNc5xV7"))();
+	end)
+end
+coroutine.wrap(LRIW_fake_script)()
+local function KYYICVJ_fake_script() -- _51.Script 
+	local script = Instance.new('Script', _51)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TXra9Typ"))();
+	end)
+end
+coroutine.wrap(KYYICVJ_fake_script)()
+local function SFDBTY_fake_script() -- _52.Script 
+	local script = Instance.new('Script', _52)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/nQxFmsMN"))();
+	end)
+end
+coroutine.wrap(SFDBTY_fake_script)()
+local function LFSHZU_fake_script() -- _53.Script 
+	local script = Instance.new('Script', _53)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/iVyperion/Public-Roblox-Scripting/master/KOSimulator/KOSimulatorGUI-obfuscated.lua"))();
+	end)
+end
+coroutine.wrap(LFSHZU_fake_script)()
+local function GGRQ_fake_script() -- _54.Script 
+	local script = Instance.new('Script', _54)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/CL4Z7xg6"))();
+	end)
+end
+coroutine.wrap(GGRQ_fake_script)()
+local function CWNNCNR_fake_script() -- _55.Script 
+	local script = Instance.new('Script', _55)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("http://pastebin.com/raw/XQpZBUD5"))();
+	end)
+end
+coroutine.wrap(CWNNCNR_fake_script)()
+local function GCMJZAB_fake_script() -- _56.Script 
+	local script = Instance.new('Script', _56)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/AW2jNtkg"))();
+	end)
+end
+coroutine.wrap(GCMJZAB_fake_script)()
+local function CLMQ_fake_script() -- _57.Script 
+	local script = Instance.new('Script', _57)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/1ZiryX69"))();
+	end)
+end
+coroutine.wrap(CLMQ_fake_script)()
+local function RBMHU_fake_script() -- _58.Script 
+	local script = Instance.new('Script', _58)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/CGWuQyqt"))();
+	end)
+end
+coroutine.wrap(RBMHU_fake_script)()
+local function ZKXXLG_fake_script() -- _59.Script 
+	local script = Instance.new('Script', _59)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/wZsEjz5E"))();
+	end)
+end
+coroutine.wrap(ZKXXLG_fake_script)()
+local function FANXY_fake_script() -- _6.Script 
+	local script = Instance.new('Script', _6)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/NGHDDDX/ScriptHubScripts/master/CCAimbot'),true))()
+	end)
+end
+coroutine.wrap(FANXY_fake_script)()
+local function YHRK_fake_script() -- _60.Script 
+	local script = Instance.new('Script', _60)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tDS58RkZ"))();
+	end)
+end
+coroutine.wrap(YHRK_fake_script)()
+local function PMBCVP_fake_script() -- _61.Script 
+	local script = Instance.new('Script', _61)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/nzvfUuic"))();
+	end)
+end
+coroutine.wrap(PMBCVP_fake_script)()
+local function CZEF_fake_script() -- _62.Script 
+	local script = Instance.new('Script', _62)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tz60v82X"))();
+	end)
+end
+coroutine.wrap(CZEF_fake_script)()
+local function OFOOK_fake_script() -- _63.Script 
+	local script = Instance.new('Script', _63)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/qc7y8Xrz"))();
+	end)
+end
+coroutine.wrap(OFOOK_fake_script)()
+local function YSBWTMO_fake_script() -- _64.Script 
+	local script = Instance.new('Script', _64)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZkuQ7uwz"))();
+	end)
+end
+coroutine.wrap(YSBWTMO_fake_script)()
+local function YOEZDR_fake_script() -- _65.Script 
+	local script = Instance.new('Script', _65)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GujZy0ab"))();
+	end)
+end
+coroutine.wrap(YOEZDR_fake_script)()
+local function JPZYTY_fake_script() -- _66.Script 
+	local script = Instance.new('Script', _66)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/dGmwtKFZ"))();
+	end)
+end
+coroutine.wrap(JPZYTY_fake_script)()
+local function THFQ_fake_script() -- _67.Script 
+	local script = Instance.new('Script', _67)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/rd6aw/raw"))();
+	end)
+end
+coroutine.wrap(THFQ_fake_script)()
+local function RLTCA_fake_script() -- _68.Script 
+	local script = Instance.new('Script', _68)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/As5D6NAN"))();
+	end)
+end
+coroutine.wrap(RLTCA_fake_script)()
+local function ZHEBLR_fake_script() -- _69.Script 
+	local script = Instance.new('Script', _69)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/U8cHYnJ5"))();
+	end)
+end
+coroutine.wrap(ZHEBLR_fake_script)()
+local function LQERNTZ_fake_script() -- _7.Script 
+	local script = Instance.new('Script', _7)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/qua6e/raw"))();
+	end)
+end
+coroutine.wrap(LQERNTZ_fake_script)()
+local function ATBRDO_fake_script() -- _70.Script 
+	local script = Instance.new('Script', _70)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("http://pastebin.com/raw/dd2Ssu21"))();
+	end)
+end
+coroutine.wrap(ATBRDO_fake_script)()
+local function AWWCK_fake_script() -- _71.Script 
+	local script = Instance.new('Script', _71)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xyvE5K4q"))();
+	end)
+end
+coroutine.wrap(AWWCK_fake_script)()
+local function NKYNNCZ_fake_script() -- _72.Script 
+	local script = Instance.new('Script', _72)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/9ucUHW77"))();
+	end)
+end
+coroutine.wrap(NKYNNCZ_fake_script)()
+local function EMTVGC_fake_script() -- _73.Script 
+	local script = Instance.new('Script', _73)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Gn0tuWch"))();
+	end)
+end
+coroutine.wrap(EMTVGC_fake_script)()
+local function FNVPMX_fake_script() -- _74.Script 
+	local script = Instance.new('Script', _74)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/jwM4QgHr"))();
+	end)
+end
+coroutine.wrap(FNVPMX_fake_script)()
+local function SREI_fake_script() -- _75.Script 
+	local script = Instance.new('Script', _75)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/p4ihNBSw"))();
+	end)
+end
+coroutine.wrap(SREI_fake_script)()
+local function GXDQUS_fake_script() -- _76.Script 
+	local script = Instance.new('Script', _76)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Re5hys2N"))();
+	end)
+end
+coroutine.wrap(GXDQUS_fake_script)()
+local function NSSVHQI_fake_script() -- _77.Script 
+	local script = Instance.new('Script', _77)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/A1Xia0pi"))();
+	end)
+end
+coroutine.wrap(NSSVHQI_fake_script)()
+local function VYGLDB_fake_script() -- _78.Script 
+	local script = Instance.new('Script', _78)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/E6bXGQSn"))();
+	end)
+end
+coroutine.wrap(VYGLDB_fake_script)()
+local function DQXF_fake_script() -- _79.Script 
+	local script = Instance.new('Script', _79)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/b2XekCiR"))();
+	end)
+end
+coroutine.wrap(DQXF_fake_script)()
+local function RXUZAG_fake_script() -- _8.Script 
+	local script = Instance.new('Script', _8)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Hillsides/Game-Frickers/master/Balloon%20Simulator%202%20%5BPreview%20Of%20Dogey%20Hub%5D.lua",true))()
+	end)
+end
+coroutine.wrap(RXUZAG_fake_script)()
+local function SBRJSFI_fake_script() -- _80.Script 
+	local script = Instance.new('Script', _80)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/nGA6gAKM'),true))()
+	end)
+end
+coroutine.wrap(SBRJSFI_fake_script)()
+local function KLHU_fake_script() -- _81.Script 
+	local script = Instance.new('Script', _81)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NGHDDDX/ScriptHubScripts/master/NinjaLegends",true))()
+	end)
+end
+coroutine.wrap(KLHU_fake_script)()
+local function EXJPWME_fake_script() -- _82.Script 
+	local script = Instance.new('Script', _82)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/x1db9W2g"))();
+	end)
+end
+coroutine.wrap(EXJPWME_fake_script)()
+local function AQWGW_fake_script() -- _83.Script 
+	local script = Instance.new('Script', _83)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/RPCYGzpu"))();
+	end)
+end
+coroutine.wrap(AQWGW_fake_script)()
+local function PLMFC_fake_script() -- _84.Script 
+	local script = Instance.new('Script', _84)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Tpwg3w1x"))();
+	end)
+end
+coroutine.wrap(PLMFC_fake_script)()
+local function LGREZC_fake_script() -- _85.Script 
+	local script = Instance.new('Script', _85)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/pw3SAuef"))();
+	end)
+end
+coroutine.wrap(LGREZC_fake_script)()
+local function ELQBNG_fake_script() -- _86.Script 
+	local script = Instance.new('Script', _86)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/SN4HKY7y"))();
+	end)
+end
+coroutine.wrap(ELQBNG_fake_script)()
+local function SGRTNZB_fake_script() -- _87.Script 
+	local script = Instance.new('Script', _87)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xJMxE4UQ"))();
+	end)
+end
+coroutine.wrap(SGRTNZB_fake_script)()
+local function DKCTA_fake_script() -- _88.Script 
+	local script = Instance.new('Script', _88)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/0BEnnwC4"))();
+	end)
+end
+coroutine.wrap(DKCTA_fake_script)()
+local function YPOHG_fake_script() -- _89.Script 
+	local script = Instance.new('Script', _89)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/mggbd/raw"))();
+	end)
+end
+coroutine.wrap(YPOHG_fake_script)()
+local function OSWOWFV_fake_script() -- _9.Script 
+	local script = Instance.new('Script', _9)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/tcbuo/raw"))();
+	end)
+end
+coroutine.wrap(OSWOWFV_fake_script)()
+local function SCNQMMY_fake_script() -- _90.Script 
+	local script = Instance.new('Script', _90)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://ghostbin.co/paste/tcbuo/raw"))();
+	end)
+end
+coroutine.wrap(SCNQMMY_fake_script)()
+local function HRMNOY_fake_script() -- _91.Script 
+	local script = Instance.new('Script', _91)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Xa2vUhkk"))();
+	end)
+end
+coroutine.wrap(HRMNOY_fake_script)()
+local function LCMGBB_fake_script() -- _92.Script 
+	local script = Instance.new('Script', _92)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Ep7nd4HD"))();
+	end)
+end
+coroutine.wrap(LCMGBB_fake_script)()
+local function JZERVJ_fake_script() -- _93.Script 
+	local script = Instance.new('Script', _93)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/h9mgPtyE"))();
+	end)
+end
+coroutine.wrap(JZERVJ_fake_script)()
+local function IBXXWMU_fake_script() -- _94.Script 
+	local script = Instance.new('Script', _94)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Y30aARwS"))();
+	end)
+end
+coroutine.wrap(IBXXWMU_fake_script)()
+local function QWTPNJT_fake_script() -- _95.Script 
+	local script = Instance.new('Script', _95)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/U6fBzFf2"))();
+	end)
+end
+coroutine.wrap(QWTPNJT_fake_script)()
+local function UYNLLSQ_fake_script() -- _96.Script 
+	local script = Instance.new('Script', _96)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/7vSsPyMq"))();
+	end)
+end
+coroutine.wrap(UYNLLSQ_fake_script)()
+local function KGBFP_fake_script() -- _97.Script 
+	local script = Instance.new('Script', _97)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/WrCXreRn"))();
+	end)
+end
+coroutine.wrap(KGBFP_fake_script)()
+local function AJWCGX_fake_script() -- _98.Script 
+	local script = Instance.new('Script', _98)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/URDBqiUw"))();
+	end)
+end
+coroutine.wrap(AJWCGX_fake_script)()
+local function NQQF_fake_script() -- HubFrame.DraggingScript 
+	local script = Instance.new('LocalScript', HubFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(NQQF_fake_script)()

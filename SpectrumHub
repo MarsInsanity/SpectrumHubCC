@@ -104,7 +104,7 @@ local _7_2 = Instance.new("TextLabel")
 local _8_2 = Instance.new("TextLabel")
 
 SpectrumHub.Name = "SpectrumHub"
-SpectrumHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SpectrumHub.Parent = game.CoreGui
 
 ButtonFrame.Name = "ButtonFrame"
 ButtonFrame.Parent = SpectrumHub

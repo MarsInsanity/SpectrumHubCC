@@ -65,8 +65,6 @@ local B4 = Instance.new("TextButton")
 local OuterLogo = Instance.new("ImageLabel")
 local TopbarFrame = Instance.new("Frame")
 local Title = Instance.new("TextButton")
-local Name = Instance.new("TextButton")
-local Logo = Instance.new("ImageLabel")
 local Execute2Frame = Instance.new("ScrollingFrame")
 local UIGridLayout_2 = Instance.new("UIGridLayout")
 local _1_2 = Instance.new("TextButton")
@@ -825,29 +823,6 @@ Title.TextSize = 20.000
 Title.TextWrapped = true
 Title.TextXAlignment = Enum.TextXAlignment.Left
 
-Name.Name = "Name"
-Name.Parent = TopbarFrame
-Name.BackgroundColor3 = Color3.fromRGB(32, 32, 35)
-Name.BackgroundTransparency = 1.000
-Name.BorderSizePixel = 0
-Name.Position = UDim2.new(0.558136642, 0, 0.0331308804, 0)
-Name.Size = UDim2.new(0, 227, 0, 45)
-Name.Font = Enum.Font.GothamBold
-Name.Text = ""
-Name.TextColor3 = Color3.fromRGB(255, 255, 255)
-Name.TextSize = 20.000
-Name.TextWrapped = true
-Name.TextXAlignment = Enum.TextXAlignment.Right
-
-Logo.Name = "Logo"
-Logo.Parent = TopbarFrame
-Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Logo.BackgroundTransparency = 1.000
-Logo.BorderSizePixel = 0
-Logo.Position = UDim2.new(0.929372847, 0, 0.0254454333, 0)
-Logo.Size = UDim2.new(0, 44, 0, 44)
-Logo.Image = "http://www.roblox.com/asset/?id=5057336680"
-
 Execute2Frame.Name = "Execute2Frame"
 Execute2Frame.Parent = HubFrame
 Execute2Frame.Active = true
@@ -1207,7 +1182,7 @@ _8_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 _8_2.TextSize = 20.000
 _8_2.TextWrapped = true
 
-local function UOKMX_fake_script() -- SpectrumHub.NavigationFunction 
+local function ORVD_fake_script() -- SpectrumHub.NavigationFunction 
 	local script = Instance.new('Script', SpectrumHub)
 
 	print ("Spectrum Hub by Spectrum Team has been loaded!")
@@ -1274,392 +1249,392 @@ local function UOKMX_fake_script() -- SpectrumHub.NavigationFunction
 		script.Parent.HubWorkGameFrame:TweenPosition(UDim2.new(0.5,0,2,0), "Out", "Quad", 0.5, true)
 	end)
 end
-coroutine.wrap(UOKMX_fake_script)()
-local function WWZDFX_fake_script() -- _43.Script 
+coroutine.wrap(ORVD_fake_script)()
+local function LDCBJ_fake_script() -- _43.Script 
 	local script = Instance.new('Script', _43)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/154RJ1mv"))();
 	end)
 end
-coroutine.wrap(WWZDFX_fake_script)()
-local function UHBOW_fake_script() -- _44.Script 
+coroutine.wrap(LDCBJ_fake_script)()
+local function WWHC_fake_script() -- _44.Script 
 	local script = Instance.new('Script', _44)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/q817HYb9"))();
 	end)
 end
-coroutine.wrap(UHBOW_fake_script)()
-local function SCWTGB_fake_script() -- _45.Script 
+coroutine.wrap(WWHC_fake_script)()
+local function PRHQCRI_fake_script() -- _45.Script 
 	local script = Instance.new('Script', _45)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/LEqzpDW0"))();
 	end)
 end
-coroutine.wrap(SCWTGB_fake_script)()
-local function DMRD_fake_script() -- _46.Script 
+coroutine.wrap(PRHQCRI_fake_script)()
+local function FQEO_fake_script() -- _46.Script 
 	local script = Instance.new('Script', _46)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/ju2teccL"))();
 	end)
 end
-coroutine.wrap(DMRD_fake_script)()
-local function GPRZK_fake_script() -- _1.Script 
+coroutine.wrap(FQEO_fake_script)()
+local function AVPB_fake_script() -- _1.Script 
 	local script = Instance.new('Script', _1)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/rfJTK1rc"))();
 	end)
 end
-coroutine.wrap(GPRZK_fake_script)()
-local function CCTYGTE_fake_script() -- _2.Script 
+coroutine.wrap(AVPB_fake_script)()
+local function DHAU_fake_script() -- _2.Script 
 	local script = Instance.new('Script', _2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/NGHDDDX/ScriptHubScripts/master/CCAimbot'),true))()
 	end)
 end
-coroutine.wrap(CCTYGTE_fake_script)()
-local function PWLGDS_fake_script() -- _3.Script 
+coroutine.wrap(DHAU_fake_script)()
+local function UEYVIPQ_fake_script() -- _3.Script 
 	local script = Instance.new('Script', _3)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://ghostbin.co/paste/qua6e/raw"))();
 	end)
 end
-coroutine.wrap(PWLGDS_fake_script)()
-local function AOPRFND_fake_script() -- _4.Script 
+coroutine.wrap(UEYVIPQ_fake_script)()
+local function GGQRX_fake_script() -- _4.Script 
 	local script = Instance.new('Script', _4)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hillsides/Game-Frickers/master/Balloon%20Simulator%202%20%5BPreview%20Of%20Dogey%20Hub%5D.lua",true))()
 	end)
 end
-coroutine.wrap(AOPRFND_fake_script)()
-local function JNYZIZ_fake_script() -- _5.Script 
+coroutine.wrap(GGQRX_fake_script)()
+local function PJVN_fake_script() -- _5.Script 
 	local script = Instance.new('Script', _5)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/3qs77TTk"))();
 	end)
 end
-coroutine.wrap(JNYZIZ_fake_script)()
-local function QZJH_fake_script() -- _6.Script 
+coroutine.wrap(PJVN_fake_script)()
+local function JTKBN_fake_script() -- _6.Script 
 	local script = Instance.new('Script', _6)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/cv4yFfQU"))();
 	end)
 end
-coroutine.wrap(QZJH_fake_script)()
-local function KLJK_fake_script() -- _7.Script 
+coroutine.wrap(JTKBN_fake_script)()
+local function UCLQH_fake_script() -- _7.Script 
 	local script = Instance.new('Script', _7)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/AYjCdjgk"))();
 	end)
 end
-coroutine.wrap(KLJK_fake_script)()
-local function UBAH_fake_script() -- _8.Script 
+coroutine.wrap(UCLQH_fake_script)()
+local function LCNORWI_fake_script() -- _8.Script 
 	local script = Instance.new('Script', _8)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/yigKxDrK"))();
 	end)
 end
-coroutine.wrap(UBAH_fake_script)()
-local function QHNPZJZ_fake_script() -- _9.Script 
+coroutine.wrap(LCNORWI_fake_script)()
+local function SOFMGV_fake_script() -- _9.Script 
 	local script = Instance.new('Script', _9)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NGHDDDX/ScriptHubScripts/master/BoysAndGirlsHangoutScript"))();
 	end)
 end
-coroutine.wrap(QHNPZJZ_fake_script)()
-local function BARPY_fake_script() -- _10.Script 
+coroutine.wrap(SOFMGV_fake_script)()
+local function FSTOQWH_fake_script() -- _10.Script 
 	local script = Instance.new('Script', _10)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/MLPypHYv"))();
 	end)
 end
-coroutine.wrap(BARPY_fake_script)()
-local function IMGPIA_fake_script() -- _11.Script 
+coroutine.wrap(FSTOQWH_fake_script)()
+local function VHKIR_fake_script() -- _11.Script 
 	local script = Instance.new('Script', _11)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/4XSEyeag"))();
 	end)
 end
-coroutine.wrap(IMGPIA_fake_script)()
-local function UZSIA_fake_script() -- _12.Script 
+coroutine.wrap(VHKIR_fake_script)()
+local function AIWZ_fake_script() -- _12.Script 
 	local script = Instance.new('Script', _12)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/uhDvitAW"))();
 	end)
 end
-coroutine.wrap(UZSIA_fake_script)()
-local function LIMBSV_fake_script() -- _13.Script 
+coroutine.wrap(AIWZ_fake_script)()
+local function KAVFA_fake_script() -- _13.Script 
 	local script = Instance.new('Script', _13)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/AcHFc885"))();
 	end)
 end
-coroutine.wrap(LIMBSV_fake_script)()
-local function DYKTOE_fake_script() -- _14.Script 
+coroutine.wrap(KAVFA_fake_script)()
+local function JOPQ_fake_script() -- _14.Script 
 	local script = Instance.new('Script', _14)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/GZWNs9uv"))();
 	end)
 end
-coroutine.wrap(DYKTOE_fake_script)()
-local function LERX_fake_script() -- _15.Script 
+coroutine.wrap(JOPQ_fake_script)()
+local function BEOTVZR_fake_script() -- _15.Script 
 	local script = Instance.new('Script', _15)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/URDBqiUw"))();
 	end)
 end
-coroutine.wrap(LERX_fake_script)()
-local function BJTMDE_fake_script() -- _16.Script 
+coroutine.wrap(BEOTVZR_fake_script)()
+local function ILQY_fake_script() -- _16.Script 
 	local script = Instance.new('Script', _16)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Denverrz/scripts/master/BrickedUrMom.lua"),true))()
 	end)
 end
-coroutine.wrap(BJTMDE_fake_script)()
-local function DHRO_fake_script() -- _17.Script 
+coroutine.wrap(ILQY_fake_script)()
+local function CGTBPYM_fake_script() -- _17.Script 
 	local script = Instance.new('Script', _17)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/cPNc5xV7"))();
 	end)
 end
-coroutine.wrap(DHRO_fake_script)()
-local function NKES_fake_script() -- _18.Script 
+coroutine.wrap(CGTBPYM_fake_script)()
+local function QYSLZX_fake_script() -- _18.Script 
 	local script = Instance.new('Script', _18)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/TXra9Typ"))();
 	end)
 end
-coroutine.wrap(NKES_fake_script)()
-local function OYVLKL_fake_script() -- _19.Script 
+coroutine.wrap(QYSLZX_fake_script)()
+local function PUNQF_fake_script() -- _19.Script 
 	local script = Instance.new('Script', _19)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://3762448307")[1].Source)()
 	end)
 end
-coroutine.wrap(OYVLKL_fake_script)()
-local function AMVIQ_fake_script() -- _20.Script 
+coroutine.wrap(PUNQF_fake_script)()
+local function BDOQC_fake_script() -- _20.Script 
 	local script = Instance.new('Script', _20)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/1ZiryX69"))();
 	end)
 end
-coroutine.wrap(AMVIQ_fake_script)()
-local function OMQLZX_fake_script() -- _21.Script 
+coroutine.wrap(BDOQC_fake_script)()
+local function AFBUUO_fake_script() -- _21.Script 
 	local script = Instance.new('Script', _21)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/qc7y8Xrz"))();
 	end)
 end
-coroutine.wrap(OMQLZX_fake_script)()
-local function UAMDC_fake_script() -- _22.Script 
+coroutine.wrap(AFBUUO_fake_script)()
+local function AGFGF_fake_script() -- _22.Script 
 	local script = Instance.new('Script', _22)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/dGmwtKFZ"))();
 	end)
 end
-coroutine.wrap(UAMDC_fake_script)()
-local function WQGAA_fake_script() -- _23.Script 
+coroutine.wrap(AGFGF_fake_script)()
+local function MBEBPG_fake_script() -- _23.Script 
 	local script = Instance.new('Script', _23)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/mz3TQhjt"))();
 	end)
 end
-coroutine.wrap(WQGAA_fake_script)()
-local function SORVTPJ_fake_script() -- _24.Script 
+coroutine.wrap(MBEBPG_fake_script)()
+local function YKGO_fake_script() -- _24.Script 
 	local script = Instance.new('Script', _24)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/As5D6NAN"))();
 	end)
 end
-coroutine.wrap(SORVTPJ_fake_script)()
-local function BATYBOD_fake_script() -- _25.Script 
+coroutine.wrap(YKGO_fake_script)()
+local function XHRYWZ_fake_script() -- _25.Script 
 	local script = Instance.new('Script', _25)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/9ucUHW77"))();
 	end)
 end
-coroutine.wrap(BATYBOD_fake_script)()
-local function EMGGRSB_fake_script() -- _26.Script 
+coroutine.wrap(XHRYWZ_fake_script)()
+local function SAXN_fake_script() -- _26.Script 
 	local script = Instance.new('Script', _26)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/A1Xia0pi"))();
 	end)
 end
-coroutine.wrap(EMGGRSB_fake_script)()
-local function DKGF_fake_script() -- _27.Script 
+coroutine.wrap(SAXN_fake_script)()
+local function HNZSHV_fake_script() -- _27.Script 
 	local script = Instance.new('Script', _27)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/nGA6gAKM'),true))()
 	end)
 end
-coroutine.wrap(DKGF_fake_script)()
-local function PFQIMFA_fake_script() -- _28.Script 
+coroutine.wrap(HNZSHV_fake_script)()
+local function CNDGO_fake_script() -- _28.Script 
 	local script = Instance.new('Script', _28)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NGHDDDX/ScriptHubScripts/master/NinjaLegends",true))()
 	end)
 end
-coroutine.wrap(PFQIMFA_fake_script)()
-local function WDLFVIY_fake_script() -- _29.Script 
+coroutine.wrap(CNDGO_fake_script)()
+local function VNCGO_fake_script() -- _29.Script 
 	local script = Instance.new('Script', _29)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/RPCYGzpu"))();
 	end)
 end
-coroutine.wrap(WDLFVIY_fake_script)()
-local function NXTM_fake_script() -- _30.Script 
+coroutine.wrap(VNCGO_fake_script)()
+local function NMIAFC_fake_script() -- _30.Script 
 	local script = Instance.new('Script', _30)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://ghostbin.co/paste/fs2qt/raw"))();
 	end)
 end
-coroutine.wrap(NXTM_fake_script)()
-local function FTQN_fake_script() -- _31.Script 
+coroutine.wrap(NMIAFC_fake_script)()
+local function ROOVB_fake_script() -- _31.Script 
 	local script = Instance.new('Script', _31)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/fCzJL5xQ"))();
 	end)
 end
-coroutine.wrap(FTQN_fake_script)()
-local function VYOV_fake_script() -- _32.Script 
+coroutine.wrap(ROOVB_fake_script)()
+local function VMGUXNA_fake_script() -- _32.Script 
 	local script = Instance.new('Script', _32)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
 	end)
 end
-coroutine.wrap(VYOV_fake_script)()
-local function RCOQ_fake_script() -- _33.Script 
+coroutine.wrap(VMGUXNA_fake_script)()
+local function FSWRHAF_fake_script() -- _33.Script 
 	local script = Instance.new('Script', _33)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/FKane3Xg"))();
 	end)
 end
-coroutine.wrap(RCOQ_fake_script)()
-local function SVXW_fake_script() -- _34.Script 
+coroutine.wrap(FSWRHAF_fake_script)()
+local function DYEP_fake_script() -- _34.Script 
 	local script = Instance.new('Script', _34)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/qMcbuEuJ"))();
 	end)
 end
-coroutine.wrap(SVXW_fake_script)()
-local function BWLPL_fake_script() -- _35.Script 
+coroutine.wrap(DYEP_fake_script)()
+local function HPSKQJM_fake_script() -- _35.Script 
 	local script = Instance.new('Script', _35)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/PwzTNbsR"))();
 	end)
 end
-coroutine.wrap(BWLPL_fake_script)()
-local function XIWAPUQ_fake_script() -- _36.Script 
+coroutine.wrap(HPSKQJM_fake_script)()
+local function KKFXNJ_fake_script() -- _36.Script 
 	local script = Instance.new('Script', _36)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/Qv86dKq8"))();
 	end)
 end
-coroutine.wrap(XIWAPUQ_fake_script)()
-local function QTXC_fake_script() -- _37.Script 
+coroutine.wrap(KKFXNJ_fake_script)()
+local function RUKBCM_fake_script() -- _37.Script 
 	local script = Instance.new('Script', _37)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/f1whedKk"))();
 	end)
 end
-coroutine.wrap(QTXC_fake_script)()
-local function LDWUU_fake_script() -- _38.Script 
+coroutine.wrap(RUKBCM_fake_script)()
+local function DXEKTS_fake_script() -- _38.Script 
 	local script = Instance.new('Script', _38)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/4jHBeTtf"))();
 	end)
 end
-coroutine.wrap(LDWUU_fake_script)()
-local function FCJSFLQ_fake_script() -- _39.Script 
+coroutine.wrap(DXEKTS_fake_script)()
+local function WJFXCPX_fake_script() -- _39.Script 
 	local script = Instance.new('Script', _39)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg"))();
 	end)
 end
-coroutine.wrap(FCJSFLQ_fake_script)()
-local function GZYNTO_fake_script() -- _40.Script 
+coroutine.wrap(WJFXCPX_fake_script)()
+local function GSII_fake_script() -- _40.Script 
 	local script = Instance.new('Script', _40)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/61vdJN2e"))();
 	end)
 end
-coroutine.wrap(GZYNTO_fake_script)()
-local function DZBCWG_fake_script() -- _41.Script 
+coroutine.wrap(GSII_fake_script)()
+local function GNFL_fake_script() -- _41.Script 
 	local script = Instance.new('Script', _41)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/mxVSVCLE"))();
 	end)
 end
-coroutine.wrap(DZBCWG_fake_script)()
-local function MDFIIP_fake_script() -- _42.Script 
+coroutine.wrap(GNFL_fake_script)()
+local function CINKSU_fake_script() -- _42.Script 
 	local script = Instance.new('Script', _42)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/Ptrnnf3D"))();
 	end)
 end
-coroutine.wrap(MDFIIP_fake_script)()
-local function WCAAVO_fake_script() -- _47.Script 
+coroutine.wrap(CINKSU_fake_script)()
+local function CTXUCQ_fake_script() -- _47.Script 
 	local script = Instance.new('Script', _47)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/Ptrnnf3D"))();
 	end)
 end
-coroutine.wrap(WCAAVO_fake_script)()
-local function EGTMYA_fake_script() -- _48.Script 
+coroutine.wrap(CTXUCQ_fake_script)()
+local function GDXHLKQ_fake_script() -- _48.Script 
 	local script = Instance.new('Script', _48)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/FKane3Xg"))();
 	end)
 end
-coroutine.wrap(EGTMYA_fake_script)()
-local function TOSMZ_fake_script() -- HubFrame.DraggingScript 
+coroutine.wrap(GDXHLKQ_fake_script)()
+local function AZPWX_fake_script() -- HubFrame.DraggingScript 
 	local script = Instance.new('LocalScript', HubFrame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1702,8 +1677,8 @@ local function TOSMZ_fake_script() -- HubFrame.DraggingScript
 		end
 	end)
 end
-coroutine.wrap(TOSMZ_fake_script)()
-local function QNTUTOZ_fake_script() -- OuterLogo.LocalScript 
+coroutine.wrap(AZPWX_fake_script)()
+local function DEWWO_fake_script() -- OuterLogo.LocalScript 
 	local script = Instance.new('LocalScript', OuterLogo)
 
 	while wait() do
@@ -1713,20 +1688,8 @@ local function QNTUTOZ_fake_script() -- OuterLogo.LocalScript
 		end
 	end
 end
-coroutine.wrap(QNTUTOZ_fake_script)()
-local function EJEDE_fake_script() -- Name.LocalScript 
-	local script = Instance.new('LocalScript', Name)
-
-	script.Parent.Text = "Hello! ".. game.Players.LocalPlayer.Name ..""
-end
-coroutine.wrap(EJEDE_fake_script)()
-local function SBENS_fake_script() -- Logo.LocalScript 
-	local script = Instance.new('LocalScript', Logo)
-
-	script.Parent.Image = "https://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&userId="..game.Players.LocalPlayer.UserId
-end
-coroutine.wrap(SBENS_fake_script)()
-local function YHYRSR_fake_script() -- _1_2.Script 
+coroutine.wrap(DEWWO_fake_script)()
+local function BIUXQO_fake_script() -- _1_2.Script 
 	local script = Instance.new('Script', _1_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1734,8 +1697,8 @@ local function YHYRSR_fake_script() -- _1_2.Script
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Denverrz/scripts/master/Zyrex_Hub.lua"),true))()
 	end)
 end
-coroutine.wrap(YHYRSR_fake_script)()
-local function ORFDGXA_fake_script() -- _2_2.Script 
+coroutine.wrap(BIUXQO_fake_script)()
+local function ECOQHX_fake_script() -- _2_2.Script 
 	local script = Instance.new('Script', _2_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1746,80 +1709,80 @@ local function ORFDGXA_fake_script() -- _2_2.Script
 	loadstring(game:HttpGet("https://pastebin.com/raw/mtrRP1H1", true))()
 	end)
 end
-coroutine.wrap(ORFDGXA_fake_script)()
-local function TSHPRPF_fake_script() -- _3_2.Script 
+coroutine.wrap(ECOQHX_fake_script)()
+local function TODGQM_fake_script() -- _3_2.Script 
 	local script = Instance.new('Script', _3_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://www.potato-hub.com/PotatoHub.lua'),true))()
 	end)
 end
-coroutine.wrap(TSHPRPF_fake_script)()
-local function XVQL_fake_script() -- _4_2.Script 
+coroutine.wrap(TODGQM_fake_script)()
+local function SYPO_fake_script() -- _4_2.Script 
 	local script = Instance.new('Script', _4_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(XVQL_fake_script)()
-local function MIQNFMR_fake_script() -- _4_3.Script 
+coroutine.wrap(SYPO_fake_script)()
+local function BIOOGE_fake_script() -- _4_3.Script 
 	local script = Instance.new('Script', _4_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/HFkyyd1H", true))()
 	end)
 end
-coroutine.wrap(MIQNFMR_fake_script)()
-local function IVBCWEK_fake_script() -- _3_3.Script 
+coroutine.wrap(BIOOGE_fake_script)()
+local function RYJEMY_fake_script() -- _3_3.Script 
 	local script = Instance.new('Script', _3_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/bVjM0xCS", true))()
 	end)
 end
-coroutine.wrap(IVBCWEK_fake_script)()
-local function EHWWY_fake_script() -- _2_3.Script 
+coroutine.wrap(RYJEMY_fake_script)()
+local function UTYPXG_fake_script() -- _2_3.Script 
 	local script = Instance.new('Script', _2_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/Hv2BEncA'),true))()
 	end)
 end
-coroutine.wrap(EHWWY_fake_script)()
-local function XZCN_fake_script() -- _1_3.Script 
+coroutine.wrap(UTYPXG_fake_script)()
+local function OVPWWDV_fake_script() -- _1_3.Script 
 	local script = Instance.new('Script', _1_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(XZCN_fake_script)()
-local function YQFCS_fake_script() -- _1_4.Script 
+coroutine.wrap(OVPWWDV_fake_script)()
+local function QNKHIAJ_fake_script() -- _1_4.Script 
 	local script = Instance.new('Script', _1_4)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Denverrz/scripts/master/Invisible_Fling_Revamp.lua"),true))()
 	end)
 end
-coroutine.wrap(YQFCS_fake_script)()
-local function EBYM_fake_script() -- _2_4.Script 
+coroutine.wrap(QNKHIAJ_fake_script)()
+local function WLCMVF_fake_script() -- _2_4.Script 
 	local script = Instance.new('Script', _2_4)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/yBDULxqU", true))()
 	end)
 end
-coroutine.wrap(EBYM_fake_script)()
-local function XXVDV_fake_script() -- _3_4.Script 
+coroutine.wrap(WLCMVF_fake_script)()
+local function JCKX_fake_script() -- _3_4.Script 
 	local script = Instance.new('Script', _3_4)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/Rx4Qqicd", true))()
 	end)
 end
-coroutine.wrap(XXVDV_fake_script)()
-local function LWZG_fake_script() -- IntroRing.LocalScript 
+coroutine.wrap(JCKX_fake_script)()
+local function BUYAZPL_fake_script() -- IntroRing.LocalScript 
 	local script = Instance.new('LocalScript', IntroRing)
 
 	while wait() do
@@ -1829,4 +1792,4 @@ local function LWZG_fake_script() -- IntroRing.LocalScript
 		end
 	end
 end
-coroutine.wrap(LWZG_fake_script)()
+coroutine.wrap(BUYAZPL_fake_script)()
